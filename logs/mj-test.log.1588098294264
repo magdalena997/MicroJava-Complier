@@ -1,0 +1,202 @@
+INFO  20:22:01,114 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  20:22:01,283 - #2 program
+INFO  20:22:01,283 - #14 MJProgram
+INFO  20:22:01,283 - #14 int
+INFO  20:22:01,298 - #14 x
+INFO  20:22:01,298 - #7 ,
+INFO  20:22:01,298 - #14 y
+INFO  20:22:01,298 - #6 ;
+INFO  20:22:01,298 - #14 int
+INFO  20:22:01,298 - #14 c
+INFO  20:22:01,298 - #9 [
+INFO  20:22:01,298 - #10 ]
+INFO  20:22:01,298 - #6 ;
+INFO  20:22:01,298 - #3 {
+INFO  20:22:01,298 - #20 void
+INFO  20:22:01,298 - #14 main
+INFO  20:22:01,298 - #11 (
+INFO  20:22:01,298 - #12 )
+INFO  20:22:01,298 - #3 {
+INFO  20:22:01,298 - #14 c
+INFO  20:22:01,298 - #8 =
+INFO  20:22:01,298 - #26 new
+INFO  20:22:01,298 - #14 int
+INFO  20:22:01,298 - #9 [
+INFO  20:22:01,298 - #13 2
+INFO  20:22:01,298 - #10 ]
+INFO  20:22:01,298 - #6 ;
+INFO  20:22:01,314 - #14 c
+INFO  20:22:01,314 - #9 [
+INFO  20:22:01,314 - #13 0
+INFO  20:22:01,314 - #10 ]
+INFO  20:22:01,314 - #8 =
+INFO  20:22:01,314 - #13 3
+INFO  20:22:01,314 - #6 ;
+INFO  20:22:01,314 - #36 print
+INFO  20:22:01,314 - #11 (
+INFO  20:22:01,314 - #14 c
+INFO  20:22:01,314 - #9 [
+INFO  20:22:01,314 - #13 0
+INFO  20:22:01,314 - #10 ]
+INFO  20:22:01,314 - #12 )
+INFO  20:22:01,314 - #6 ;
+INFO  20:22:01,314 - #36 print
+INFO  20:22:01,314 - #11 (
+INFO  20:22:01,314 - #13 2
+INFO  20:22:01,314 - #12 )
+INFO  20:22:01,314 - #6 ;
+INFO  20:22:01,314 - #4 }
+INFO  20:22:01,314 - #4 }
+INFO  20:22:01,336 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            SinglVarDecl(
+              VarDecListI(
+               x
+              ) [VarDecListI]
+            ) [SinglVarDecl]
+            VarDecListI(
+             y
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SinglVarDecl(
+          BrVarDecListI(
+           c
+          ) [BrVarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                Assignment(
+                  DesignatorStatementss(
+                    DesignatorIdent(
+                     c
+                    ) [DesignatorIdent]
+                    Exprs(
+                      TermF(
+                        FactorNewExpr(
+                          Type(
+                           int
+                          ) [Type]
+                          Exprs(
+                            TermF(
+                              FactorNumConst(
+                               2
+                              ) [FactorNumConst]
+                            ) [TermF]
+                          ) [Exprs]
+                        ) [FactorNewExpr]
+                      ) [TermF]
+                    ) [Exprs]
+                  ) [DesignatorStatementss]
+                ) [Assignment]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                DesignatorStatementss(
+                  DesignE(
+                   c
+                    Exprs(
+                      TermF(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                      ) [TermF]
+                    ) [Exprs]
+                  ) [DesignE]
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       3
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignatorStatementss]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  DesignatorFactor(
+                    DesignE(
+                     c
+                      Exprs(
+                        TermF(
+                          FactorNumConst(
+                           0
+                          ) [FactorNumConst]
+                        ) [TermF]
+                      ) [Exprs]
+                    ) [DesignE]
+                  ) [DesignatorFactor]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Exprs(
+              TermF(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+              ) [TermF]
+            ) [Exprs]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:22:01,336 - ===================================
+INFO  20:22:01,352 - Var: x tip 1 na liniji 2
+INFO  20:22:01,352 - Var: y tip 1 na liniji 2
+INFO  20:22:01,352 - Var: c tip 1 na liniji 3
+INFO  20:22:01,352 - Obradjuje se funkcija main na liniji 5
+INFO  20:22:01,352 - Objekat je element niza c tipa niz 5 na liniji 8
+INFO  20:22:01,352 - Objekat je element niza c tipa niz 5 na liniji 10
+INFO  20:22:01,352 -  Print count calls = 2
+INFO  20:22:01,352 -  Deklarisanih promenljivih ima = 3
+INFO  20:22:01,352 - ===================================
+INFO  20:22:01,367 - Parsiranje uspesno zavrseno!

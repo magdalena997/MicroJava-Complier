@@ -1,0 +1,24 @@
+INFO  23:27:02,824 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\test301.mj
+INFO  23:27:03,003 - #2 program
+INFO  23:27:03,003 - #14 test301
+INFO  23:27:03,003 - #5 const
+INFO  23:27:03,005 - #14 int
+INFO  23:27:03,005 - #14 nula
+INFO  23:27:03,005 - #8 =
+INFO  23:27:03,005 - #13 0
+INFO  23:27:03,005 - #6 ;
+INFO  23:27:03,005 - #5 const
+INFO  23:27:03,013 - #14 int
+INFO  23:27:03,013 - #14 jedan
+INFO  23:27:03,013 - #8 =
+INFO  23:27:03,013 - #13 1
+INFO  23:27:03,015 - #6 ;
+INFO  23:27:03,015 - #5 const
+INFO  23:27:03,015 - #14 int
+INFO  23:27:03,015 - #14 pet
+INFO  23:27:03,015 - #8 =
+INFO  23:27:03,015 - #13 5
+INFO  23:27:03,015 - #48 %
+ERROR 23:27:03,015 - 
+Sintaksna greska na liniji 7
+ERROR 23:27:03,033 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

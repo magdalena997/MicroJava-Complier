@@ -1,0 +1,182 @@
+INFO  22:20:38,157 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  22:20:38,301 - #2 program
+INFO  22:20:38,301 - #14 MJProgram
+INFO  22:20:38,301 - #14 int
+INFO  22:20:38,301 - #14 x
+INFO  22:20:38,305 - #7 ,
+INFO  22:20:38,305 - #14 y
+INFO  22:20:38,305 - #6 ;
+INFO  22:20:38,305 - #14 char
+INFO  22:20:38,305 - #14 z
+INFO  22:20:38,305 - #6 ;
+INFO  22:20:38,309 - #14 int
+INFO  22:20:38,309 - #14 x
+INFO  22:20:38,309 - #7 ,
+INFO  22:20:38,309 - #6 ;
+ERROR 22:20:38,309 - 
+Sintaksna greska na liniji 4
+INFO  22:20:38,309 - #3 {
+INFO  22:20:38,309 - #20 void
+INFO  22:20:38,309 - #14 main
+INFO  22:20:38,313 - #11 (
+INFO  22:20:38,313 - #14 int
+INFO  22:20:38,313 - #14 a
+INFO  22:20:38,317 - #7 ,
+INFO  22:20:38,317 - #14 b
+INFO  22:20:38,317 - #14 b
+INFO  22:20:38,317 - #12 )
+INFO  22:20:38,317 - #3 {
+INFO  22:20:38,321 - #36 print
+INFO  22:20:38,321 - #11 (
+INFO  22:20:38,321 - #13 1
+INFO  22:20:38,321 - #12 )
+INFO  22:20:38,321 - #6 ;
+INFO  22:20:38,321 - #14 x
+INFO  22:20:38,321 - #8 =
+INFO  22:20:38,321 - #14 y
+INFO  22:20:38,325 - #45 +
+INFO  22:20:38,325 - #13 1
+INFO  22:20:38,325 - #45 +
+INFO  22:20:38,329 - #6 ;
+ERROR 22:20:38,329 - 
+Sintaksna greska na liniji 9
+INFO  22:20:38,329 - #36 print
+INFO  22:20:38,329 - #11 (
+INFO  22:20:38,329 - #13 2
+INFO  22:20:38,329 - #12 )
+INFO  22:20:38,329 - #6 ;
+INFO  22:20:38,329 - #4 }
+INFO  22:20:38,329 - #4 }
+INFO  22:20:38,333 - Program(
+ MJProgram
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        NoListProgs(
+        ) [NoListProgs]
+        ListProgVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              SinglVarDecl(
+                VarDecListI(
+                 x
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+              VarDecListI(
+               y
+              ) [VarDecListI]
+            ) [VarDeclarations]
+          ) [VarDecl]
+        ) [ListProgVar]
+      ) [ListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SinglVarDecl(
+            VarDecListI(
+             z
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          SinglVarDecl(
+            VarDecListI(
+             x
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+          ErrorVarDecs(
+          ) [ErrorVarDecs]
+        ) [VarDeclarations]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              FormalParamDeclB(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormalParamDeclB]
+            ) [SingleFormalParamDecl]
+            FormalParamDeclB(
+              Type(
+               b
+              ) [Type]
+             b
+            ) [FormalParamDeclB]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                PrintStmt(
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [PrintStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                ErrorDesignator(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  Assignops(
+                  ) [Assignops]
+                ) [ErrorDesignator]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:20:38,337 - ===================================
+INFO  22:20:38,341 - Prepoznata naredba print!
+INFO  22:20:38,341 - Prepoznata naredba print!
+INFO  22:20:38,341 -  Print count calls = 2
+INFO  22:20:38,341 -  Deklarisanih promenljivih ima = 3

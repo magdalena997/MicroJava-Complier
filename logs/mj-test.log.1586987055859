@@ -1,0 +1,218 @@
+INFO  23:37:39,108 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  23:37:39,241 - #2 program
+INFO  23:37:39,242 - #14 MJProgram
+INFO  23:37:39,242 - #14 int
+INFO  23:37:39,245 - #14 x
+INFO  23:37:39,246 - #7 ,
+INFO  23:37:39,247 - #14 y
+INFO  23:37:39,247 - #6 ;
+INFO  23:37:39,247 - #14 char
+INFO  23:37:39,250 - #14 z
+INFO  23:37:39,251 - #6 ;
+INFO  23:37:39,251 - #5 const
+INFO  23:37:39,251 - #14 char
+INFO  23:37:39,251 - #14 n
+INFO  23:37:39,251 - #8 =
+INFO  23:37:39,251 - #15 a
+INFO  23:37:39,251 - #6 ;
+INFO  23:37:39,251 - #5 const
+INFO  23:37:39,252 - #14 int
+INFO  23:37:39,252 - #14 t
+INFO  23:37:39,253 - #8 =
+INFO  23:37:39,253 - #13 5
+INFO  23:37:39,253 - #6 ;
+INFO  23:37:39,258 - #5 const
+INFO  23:37:39,258 - #14 bool
+INFO  23:37:39,258 - #14 m
+INFO  23:37:39,258 - #8 =
+INFO  23:37:39,258 - #16 false
+INFO  23:37:39,259 - #6 ;
+INFO  23:37:39,259 - #3 {
+INFO  23:37:39,259 - #20 void
+INFO  23:37:39,261 - #14 main
+INFO  23:37:39,261 - #11 (
+INFO  23:37:39,261 - #14 char
+INFO  23:37:39,261 - #14 b
+INFO  23:37:39,262 - #12 )
+INFO  23:37:39,262 - #3 {
+INFO  23:37:39,264 - #36 print
+INFO  23:37:39,266 - #11 (
+INFO  23:37:39,266 - #13 1
+INFO  23:37:39,266 - #12 )
+INFO  23:37:39,267 - #6 ;
+INFO  23:37:39,267 - #14 a
+INFO  23:37:39,268 - #8 =
+INFO  23:37:39,268 - #16 true
+INFO  23:37:39,268 - #6 ;
+INFO  23:37:39,269 - #36 print
+INFO  23:37:39,269 - #11 (
+INFO  23:37:39,269 - #13 2
+INFO  23:37:39,270 - #12 )
+INFO  23:37:39,270 - #6 ;
+INFO  23:37:39,270 - #4 }
+INFO  23:37:39,270 - #4 }
+INFO  23:37:39,308 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        ListProgs(
+          ListProgs(
+            NoListProgs(
+            ) [NoListProgs]
+            ListProgVar(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarations(
+                  SinglVarDecl(
+                    VarDecListI(
+                     x
+                    ) [VarDecListI]
+                  ) [SinglVarDecl]
+                  VarDecListI(
+                   y
+                  ) [VarDecListI]
+                ) [VarDeclarations]
+              ) [VarDecl]
+            ) [ListProgVar]
+          ) [ListProgs]
+          ListProgVar(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              SinglVarDecl(
+                VarDecListI(
+                 z
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+            ) [VarDecl]
+          ) [ListProgVar]
+        ) [ListProgs]
+        ListProgConst(
+          ConstDecls(
+            Type(
+             char
+            ) [Type]
+            SignalCDecls(
+              ConstDeclPChar(
+               n
+               a
+              ) [ConstDeclPChar]
+            ) [SignalCDecls]
+          ) [ConstDecls]
+        ) [ListProgConst]
+      ) [ListProgs]
+      ListProgConst(
+        ConstDecls(
+          Type(
+           int
+          ) [Type]
+          SignalCDecls(
+            ConstDeclPNums(
+             t
+             5
+            ) [ConstDeclPNums]
+          ) [SignalCDecls]
+        ) [ConstDecls]
+      ) [ListProgConst]
+    ) [ListProgs]
+    ListProgConst(
+      ConstDecls(
+        Type(
+         bool
+        ) [Type]
+        SignalCDecls(
+          ConstDeclPBool(
+           m
+           false
+          ) [ConstDeclPBool]
+        ) [SignalCDecls]
+      ) [ConstDecls]
+    ) [ListProgConst]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        FormParams(
+          SingleFormalParamDecl(
+            FormalParamDeclB(
+              Type(
+               char
+              ) [Type]
+             b
+            ) [FormalParamDeclB]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                PrintStmt(
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [PrintStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                DesignatorStatementss(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                  Exprs(
+                    TermF(
+                      FactorBoolConst(
+                       true
+                      ) [FactorBoolConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignatorStatementss]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:37:39,308 - ===================================
+INFO  23:37:39,317 - Prepoznata char konstanta n na liniji 4
+INFO  23:37:39,318 - Prepoznata numericka konstanta t na liniji 5
+ERROR 23:37:39,318 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 23:37:39,318 - Greska: nekompatibline konstante m na liniji 6
+INFO  23:37:39,318 - Prepoznata naredba print!
+INFO  23:37:39,318 - Prepoznata naredba print!
+INFO  23:37:39,319 -  Print count calls = 2
+INFO  23:37:39,319 -  Deklarisanih promenljivih ima = 3
+INFO  23:37:39,320 - ===================================
+ERROR 23:37:39,322 - Parsiranje NIJE uspesno zavrseno!

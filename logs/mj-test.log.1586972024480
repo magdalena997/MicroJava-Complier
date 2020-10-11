@@ -1,0 +1,23 @@
+INFO  19:28:50,847 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  19:28:51,007 - #2 program
+INFO  19:28:51,007 - #14 MJProgram
+INFO  19:28:51,007 - #14 int
+INFO  19:28:51,011 - #14 x
+INFO  19:28:51,011 - #7 ,
+INFO  19:28:51,011 - #14 y
+INFO  19:28:51,011 - #6 ;
+INFO  19:28:51,011 - #14 char
+INFO  19:28:51,015 - #14 z
+INFO  19:28:51,015 - #6 ;
+INFO  19:28:51,015 - #5 const
+INFO  19:28:51,015 - #14 int
+INFO  19:28:51,015 - #14 n
+INFO  19:28:51,015 - #8 =
+INFO  19:28:51,015 - #16 true
+INFO  19:28:51,015 - #7 ,
+INFO  19:28:51,015 - #14 m
+INFO  19:28:51,019 - #8 =
+INFO  19:28:51,019 - #14 aaa
+ERROR 19:28:51,019 - 
+Sintaksna greska na liniji 4
+ERROR 19:28:51,019 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

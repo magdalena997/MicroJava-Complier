@@ -1,0 +1,212 @@
+INFO  17:08:06,032 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  17:08:06,186 - #2 program
+INFO  17:08:06,186 - #14 MJProgram
+INFO  17:08:06,186 - #14 int
+INFO  17:08:06,186 - #14 x
+INFO  17:08:06,186 - #7 ,
+INFO  17:08:06,186 - #14 y
+INFO  17:08:06,186 - #6 ;
+INFO  17:08:06,186 - #14 int
+INFO  17:08:06,202 - #14 c
+INFO  17:08:06,202 - #9 [
+INFO  17:08:06,202 - #10 ]
+INFO  17:08:06,202 - #6 ;
+INFO  17:08:06,202 - #3 {
+INFO  17:08:06,202 - #20 void
+INFO  17:08:06,202 - #14 main
+INFO  17:08:06,202 - #11 (
+INFO  17:08:06,202 - #12 )
+INFO  17:08:06,202 - #3 {
+INFO  17:08:06,202 - #14 x
+INFO  17:08:06,202 - #8 =
+INFO  17:08:06,202 - #13 5
+INFO  17:08:06,202 - #6 ;
+INFO  17:08:06,202 - #14 x
+INFO  17:08:06,202 - #8 =
+INFO  17:08:06,202 - #14 x
+INFO  17:08:06,202 - #45 +
+INFO  17:08:06,202 - #13 1
+INFO  17:08:06,202 - #6 ;
+INFO  17:08:06,202 - #14 x
+INFO  17:08:06,202 - #28 +=
+INFO  17:08:06,202 - #16 true
+INFO  17:08:06,217 - #6 ;
+INFO  17:08:06,217 - #36 print
+INFO  17:08:06,217 - #11 (
+INFO  17:08:06,217 - #14 x
+INFO  17:08:06,217 - #12 )
+INFO  17:08:06,217 - #6 ;
+INFO  17:08:06,217 - #36 print
+INFO  17:08:06,217 - #11 (
+INFO  17:08:06,217 - #13 2
+INFO  17:08:06,217 - #12 )
+INFO  17:08:06,217 - #6 ;
+INFO  17:08:06,217 - #4 }
+INFO  17:08:06,217 - #4 }
+INFO  17:08:06,249 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            SinglVarDecl(
+              VarDecListI(
+               x
+              ) [VarDecListI]
+            ) [SinglVarDecl]
+            VarDecListI(
+             y
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SinglVarDecl(
+          BrVarDecListI(
+           c
+          ) [BrVarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  Assignment(
+                    DesignatorStatementss(
+                      DesignatorIdent(
+                       x
+                      ) [DesignatorIdent]
+                      Exprs(
+                        TermF(
+                          FactorNumConst(
+                           5
+                          ) [FactorNumConst]
+                        ) [TermF]
+                      ) [Exprs]
+                    ) [DesignatorStatementss]
+                  ) [Assignment]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                Assignment(
+                  DesignatorStatementss(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    ExprA(
+                      Exprs(
+                        TermF(
+                          DesignatorFactor(
+                            DesignatorIdent(
+                             x
+                            ) [DesignatorIdent]
+                          ) [DesignatorFactor]
+                        ) [TermF]
+                      ) [Exprs]
+                      AddopLeftPLeft(
+                        AddopPLUS(
+                        ) [AddopPLUS]
+                      ) [AddopLeftPLeft]
+                      TermF(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermF]
+                    ) [ExprA]
+                  ) [DesignatorStatementss]
+                ) [Assignment]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                DesignatorAddop(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  AddopADD(
+                  ) [AddopADD]
+                  Exprs(
+                    TermF(
+                      FactorBoolConst(
+                       true
+                      ) [FactorBoolConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignatorAddop]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  DesignatorFactor(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                  ) [DesignatorFactor]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Exprs(
+              TermF(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+              ) [TermF]
+            ) [Exprs]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:08:06,249 - ===================================
+INFO  17:08:06,264 - Var: x tip 1 na liniji 2
+INFO  17:08:06,264 - Var: y tip 1 na liniji 2
+INFO  17:08:06,264 - Var: c tip 1 na liniji 3
+INFO  17:08:06,264 - Obradjuje se funkcija main na liniji 5
+INFO  17:08:06,264 - Objekat je x tipa  1 na liniji 15
+INFO  17:08:06,264 - Objekat je x tipa  1 na liniji 17
+INFO  17:08:06,264 - Objekat je x tipa  1 na liniji 17
+INFO  17:08:06,264 - Objekat je x tipa  1 na liniji 19
+ERROR 17:08:06,264 - Greska na liniji 19 : nekompatibilni tipovi u dodeli vrednosti! 
+INFO  17:08:06,264 - Objekat je x tipa  1 na liniji 21
+INFO  17:08:06,264 -  Print count calls = 2
+INFO  17:08:06,264 -  Deklarisanih promenljivih ima = 3
+INFO  17:08:06,264 - ===================================
+ERROR 17:08:06,264 - Parsiranje NIJE uspesno zavrseno!

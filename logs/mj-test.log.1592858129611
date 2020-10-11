@@ -1,0 +1,74 @@
+INFO  22:32:45,952 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\test2.mj
+INFO  22:32:46,384 - #2 program
+INFO  22:32:46,384 - #14 MJTest
+INFO  22:32:46,384 - #14 int
+INFO  22:32:46,395 - #14 p
+INFO  22:32:46,395 - #6 ;
+INFO  22:32:46,395 - #14 char
+INFO  22:32:46,395 - #6 ;
+ERROR 22:32:46,395 - 
+Sintaksna greska na liniji 3
+INFO  22:32:46,395 - #3 {
+INFO  22:32:46,395 - #20 void
+INFO  22:32:46,410 - #14 main
+INFO  22:32:46,454 - #11 (
+INFO  22:32:46,454 - #12 )
+INFO  22:32:46,471 - #3 {
+INFO  22:32:46,475 - #4 }
+INFO  22:32:46,478 - #4 }
+INFO  22:32:46,518 - Program(
+  ProgName(
+   MJTest
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SinglVarDecl(
+            VarDecListI(
+             p
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        SinglVarDecl(
+          ErrorVarDecs(
+          ) [ErrorVarDecs]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:32:46,518 - ===================================
+INFO  22:32:46,518 - Var: p tip 1 na liniji 2
+INFO  22:32:46,518 - Obradjuje se funkcija main na liniji 5
+INFO  22:32:46,518 -  Print count calls = 0
+INFO  22:32:46,518 -  Deklarisanih promenljivih ima = 1
+INFO  22:32:46,534 - ===================================
+ERROR 22:32:46,554 - Parsiranje NIJE uspesno zavrseno!

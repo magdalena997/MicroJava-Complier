@@ -1,0 +1,52 @@
+program MJProgram
+	int x, y;
+	int a;
+	int c[];
+{	
+	int k() {
+		
+		return 2;
+	}
+	void main()  {
+		c = new int[4];
+			
+		c[1] = 4;
+		c[0] = 6;
+		c[2] = k();
+		
+		a= 0;
+		
+		a++;
+		print(a); //1
+		a+= 25;
+		a--; 
+		print(a); //25
+		a++;
+		a--;
+		print(a); //25
+		y = 4;
+		
+		x = 9;
+	
+		c[0] --;
+		
+		c[1] += x;
+	
+		print(c[1]); //13
+		print(c[0]); //5
+		print(c[2]); //2
+
+		x = x*2 + 1;
+		c[2] += x-7; 
+		
+		
+		x %= c[2] /= 3;
+		
+		print(x);  //3
+		print(c[2]); //4
+		
+		
+	}
+	
+
+}

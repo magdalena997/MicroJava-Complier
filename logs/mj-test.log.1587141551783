@@ -1,0 +1,179 @@
+INFO  18:38:25,145 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  18:38:25,307 - #2 program
+INFO  18:38:25,307 - #14 MJProgram
+INFO  18:38:25,307 - #14 int
+INFO  18:38:25,307 - #14 x
+INFO  18:38:25,307 - #7 ,
+INFO  18:38:25,314 - #14 y
+INFO  18:38:25,314 - #6 ;
+INFO  18:38:25,314 - #14 char
+INFO  18:38:25,314 - #14 z
+INFO  18:38:25,314 - #6 ;
+INFO  18:38:25,314 - #5 const
+INFO  18:38:25,314 - #14 char
+INFO  18:38:25,314 - #14 n
+INFO  18:38:25,314 - #8 =
+INFO  18:38:25,314 - #15 a
+INFO  18:38:25,314 - #6 ;
+INFO  18:38:25,314 - #5 const
+INFO  18:38:25,314 - #14 int
+INFO  18:38:25,314 - #14 t
+INFO  18:38:25,314 - #8 =
+INFO  18:38:25,314 - #13 5
+INFO  18:38:25,314 - #6 ;
+INFO  18:38:25,461 - #5 const
+INFO  18:38:25,461 - #14 bool
+INFO  18:38:25,461 - #14 m
+INFO  18:38:25,461 - #8 =
+INFO  18:38:25,461 - #16 false
+INFO  18:38:25,461 - #6 ;
+INFO  18:38:25,461 - #3 {
+INFO  18:38:25,461 - #20 void
+INFO  18:38:25,461 - #14 main
+INFO  18:38:25,461 - #11 (
+INFO  18:38:25,461 - #14 char
+INFO  18:38:25,461 - #14 b
+INFO  18:38:25,461 - #12 )
+INFO  18:38:25,461 - #3 {
+INFO  18:38:25,461 - #36 print
+INFO  18:38:25,461 - #11 (
+INFO  18:38:25,461 - #13 1
+INFO  18:38:25,461 - #12 )
+INFO  18:38:25,461 - #6 ;
+INFO  18:38:25,461 - #14 int
+INFO  18:38:25,461 - #14 a
+ERROR 18:38:25,461 - 
+Sintaksna greska na liniji 13
+INFO  18:38:25,461 - #6 ;
+INFO  18:38:25,461 - #14 a
+INFO  18:38:25,461 - #8 =
+INFO  18:38:25,477 - #16 true
+INFO  18:38:25,477 - #6 ;
+INFO  18:38:25,477 - #36 print
+INFO  18:38:25,477 - #11 (
+INFO  18:38:25,477 - #13 2
+INFO  18:38:25,477 - #12 )
+INFO  18:38:25,477 - #6 ;
+INFO  18:38:25,477 - #4 }
+INFO  18:38:25,477 - #14 int
+INFO  18:38:25,477 - #14 visit
+INFO  18:38:25,477 - #11 (
+INFO  18:38:25,477 - #14 int
+INFO  18:38:25,477 - #14 a
+INFO  18:38:25,477 - #12 )
+INFO  18:38:25,477 - #3 {
+INFO  18:38:25,477 - #4 }
+INFO  18:38:25,477 - #4 }
+INFO  18:38:25,515 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        ListProgs(
+          ListProgs(
+            NoListProgs(
+            ) [NoListProgs]
+            ListProgVar(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarations(
+                  SinglVarDecl(
+                    VarDecListI(
+                     x
+                    ) [VarDecListI]
+                  ) [SinglVarDecl]
+                  VarDecListI(
+                   y
+                  ) [VarDecListI]
+                ) [VarDeclarations]
+              ) [VarDecl]
+            ) [ListProgVar]
+          ) [ListProgs]
+          ListProgVar(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              SinglVarDecl(
+                VarDecListI(
+                 z
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+            ) [VarDecl]
+          ) [ListProgVar]
+        ) [ListProgs]
+        ListProgConst(
+          ConstDecls(
+            Type(
+             char
+            ) [Type]
+            SignalCDecls(
+              ConstDeclPChar(
+               n
+               a
+              ) [ConstDeclPChar]
+            ) [SignalCDecls]
+          ) [ConstDecls]
+        ) [ListProgConst]
+      ) [ListProgs]
+      ListProgConst(
+        ConstDecls(
+          Type(
+           int
+          ) [Type]
+          SignalCDecls(
+            ConstDeclPNums(
+             t
+             5
+            ) [ConstDeclPNums]
+          ) [SignalCDecls]
+        ) [ConstDecls]
+      ) [ListProgConst]
+    ) [ListProgs]
+    ListProgConst(
+      ConstDecls(
+        Type(
+         bool
+        ) [Type]
+        SignalCDecls(
+          ConstDeclPBool(
+           m
+           false
+          ) [ConstDeclPBool]
+        ) [SignalCDecls]
+      ) [ConstDecls]
+    ) [ListProgConst]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      FormParams(
+        SingleFormalParamDecl(
+          ErrorFormalParam(
+          ) [ErrorFormalParam]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:38:25,515 - ===================================
+INFO  18:38:25,515 - Prepoznata char konstanta n na liniji 4
+INFO  18:38:25,515 - Prepoznata numericka konstanta t na liniji 5
+INFO  18:38:25,515 - Prepoznata bool konstanta m na liniji 6
+INFO  18:38:25,515 - Obradjuje se funkcija main na liniji 10
+INFO  18:38:25,530 -  Print count calls = 0
+INFO  18:38:25,530 -  Deklarisanih promenljivih ima = 3
+INFO  18:38:25,530 - ===================================
+ERROR 18:38:25,530 - Parsiranje NIJE uspesno zavrseno!

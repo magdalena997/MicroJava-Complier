@@ -1,0 +1,154 @@
+INFO  12:21:24,646 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  12:21:24,800 - #2 program
+INFO  12:21:24,800 - #14 MJProgram
+INFO  12:21:24,800 - #14 int
+INFO  12:21:24,800 - #14 x
+INFO  12:21:24,800 - #7 ,
+INFO  12:21:24,800 - #14 y
+INFO  12:21:24,800 - #6 ;
+INFO  12:21:24,800 - #14 int
+INFO  12:21:24,800 - #14 c
+INFO  12:21:24,800 - #9 [
+INFO  12:21:24,800 - #10 ]
+INFO  12:21:24,800 - #6 ;
+INFO  12:21:24,800 - #3 {
+INFO  12:21:24,800 - #20 void
+INFO  12:21:24,800 - #14 main
+INFO  12:21:24,800 - #11 (
+INFO  12:21:24,800 - #12 )
+INFO  12:21:24,800 - #3 {
+INFO  12:21:24,800 - #14 x
+INFO  12:21:24,816 - #8 =
+INFO  12:21:24,816 - #13 5
+INFO  12:21:24,816 - #6 ;
+INFO  12:21:24,816 - #14 x
+INFO  12:21:24,816 - #30 /=
+INFO  12:21:24,816 - #13 5
+INFO  12:21:24,816 - #6 ;
+INFO  12:21:24,816 - #36 print
+INFO  12:21:24,816 - #11 (
+INFO  12:21:24,816 - #14 x
+INFO  12:21:24,816 - #12 )
+INFO  12:21:24,816 - #6 ;
+INFO  12:21:24,816 - #4 }
+INFO  12:21:24,816 - #4 }
+INFO  12:21:24,847 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            SinglVarDecl(
+              VarDecListI(
+               x
+              ) [VarDecListI]
+            ) [SinglVarDecl]
+            VarDecListI(
+             y
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SinglVarDecl(
+          BrVarDecListI(
+           c
+          ) [BrVarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              Assignment(
+                DesignatorStatementss(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       5
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignatorStatementss]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            Assignment(
+              DesignatorMulop(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+                MulopRightDIV(
+                ) [MulopRightDIV]
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     5
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [DesignatorMulop]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Exprs(
+              TermF(
+                DesignatorFactor(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                ) [DesignatorFactor]
+              ) [TermF]
+            ) [Exprs]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:21:24,847 - ===================================
+INFO  12:21:24,847 - Var: x tip 1 na liniji 2
+INFO  12:21:24,862 - Var: y tip 1 na liniji 2
+INFO  12:21:24,862 - Var: c tip 1 na liniji 3
+INFO  12:21:24,862 - Obradjuje se funkcija main na liniji 5
+INFO  12:21:24,862 - Objekat je x tipa  1 na liniji 19
+INFO  12:21:24,862 - Objekat je x tipa  1 na liniji 25
+INFO  12:21:24,862 - Objekat je x tipa  1 na liniji 28
+INFO  12:21:24,862 -  Print count calls = 1
+INFO  12:21:24,862 -  Deklarisanih promenljivih ima = 3
+INFO  12:21:24,862 - ===================================
+INFO  12:21:24,878 - Parsiranje uspesno zavrseno!

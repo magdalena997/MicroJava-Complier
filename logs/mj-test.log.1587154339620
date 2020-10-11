@@ -1,0 +1,271 @@
+INFO  22:11:12,285 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  22:11:12,470 - #2 program
+INFO  22:11:12,470 - #14 MJProgram
+INFO  22:11:12,470 - #14 int
+INFO  22:11:12,485 - #14 x
+INFO  22:11:12,485 - #7 ,
+INFO  22:11:12,485 - #14 y
+INFO  22:11:12,485 - #6 ;
+INFO  22:11:12,485 - #14 char
+INFO  22:11:12,485 - #14 z
+INFO  22:11:12,485 - #6 ;
+INFO  22:11:12,485 - #5 const
+INFO  22:11:12,485 - #14 char
+INFO  22:11:12,485 - #14 n
+INFO  22:11:12,485 - #8 =
+INFO  22:11:12,485 - #15 a
+INFO  22:11:12,485 - #6 ;
+INFO  22:11:12,485 - #5 const
+INFO  22:11:12,485 - #14 int
+INFO  22:11:12,485 - #14 t
+INFO  22:11:12,485 - #8 =
+INFO  22:11:12,485 - #13 5
+INFO  22:11:12,485 - #6 ;
+INFO  22:11:12,485 - #5 const
+INFO  22:11:12,485 - #14 bool
+INFO  22:11:12,485 - #14 m
+INFO  22:11:12,485 - #8 =
+INFO  22:11:12,485 - #16 false
+INFO  22:11:12,485 - #6 ;
+INFO  22:11:12,485 - #14 int
+INFO  22:11:12,485 - #14 a
+INFO  22:11:12,485 - #6 ;
+INFO  22:11:12,485 - #14 int
+INFO  22:11:12,485 - #14 c
+INFO  22:11:12,485 - #9 [
+INFO  22:11:12,485 - #10 ]
+INFO  22:11:12,485 - #6 ;
+INFO  22:11:12,485 - #3 {
+INFO  22:11:12,485 - #20 void
+INFO  22:11:12,501 - #14 main
+INFO  22:11:12,501 - #11 (
+INFO  22:11:12,501 - #14 char
+INFO  22:11:12,501 - #14 b
+INFO  22:11:12,501 - #12 )
+INFO  22:11:12,501 - #3 {
+INFO  22:11:12,501 - #36 print
+INFO  22:11:12,501 - #11 (
+INFO  22:11:12,501 - #13 1
+INFO  22:11:12,501 - #12 )
+INFO  22:11:12,501 - #6 ;
+INFO  22:11:12,501 - #14 a
+INFO  22:11:12,501 - #8 =
+INFO  22:11:12,501 - #16 true
+INFO  22:11:12,501 - #6 ;
+INFO  22:11:12,501 - #14 c
+INFO  22:11:12,501 - #8 =
+INFO  22:11:12,501 - #9 [
+ERROR 22:11:12,501 - 
+Sintaksna greska na liniji 17
+INFO  22:11:12,501 - #13 3
+INFO  22:11:12,501 - #10 ]
+INFO  22:11:12,501 - #6 ;
+INFO  22:11:12,501 - #36 print
+INFO  22:11:12,501 - #11 (
+INFO  22:11:12,501 - #13 2
+INFO  22:11:12,501 - #12 )
+INFO  22:11:12,501 - #6 ;
+INFO  22:11:12,501 - #4 }
+INFO  22:11:12,501 - #4 }
+INFO  22:11:12,548 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        ListProgs(
+          ListProgs(
+            ListProgs(
+              ListProgs(
+                NoListProgs(
+                ) [NoListProgs]
+                ListProgVar(
+                  VarDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    VarDeclarations(
+                      SinglVarDecl(
+                        VarDecListI(
+                         x
+                        ) [VarDecListI]
+                      ) [SinglVarDecl]
+                      VarDecListI(
+                       y
+                      ) [VarDecListI]
+                    ) [VarDeclarations]
+                  ) [VarDecl]
+                ) [ListProgVar]
+              ) [ListProgs]
+              ListProgVar(
+                VarDecl(
+                  Type(
+                   char
+                  ) [Type]
+                  SinglVarDecl(
+                    VarDecListI(
+                     z
+                    ) [VarDecListI]
+                  ) [SinglVarDecl]
+                ) [VarDecl]
+              ) [ListProgVar]
+            ) [ListProgs]
+            ListProgConst(
+              ConstDecls(
+                Type(
+                 char
+                ) [Type]
+                SignalCDecls(
+                  ConstDeclPChar(
+                   n
+                   a
+                  ) [ConstDeclPChar]
+                ) [SignalCDecls]
+              ) [ConstDecls]
+            ) [ListProgConst]
+          ) [ListProgs]
+          ListProgConst(
+            ConstDecls(
+              Type(
+               int
+              ) [Type]
+              SignalCDecls(
+                ConstDeclPNums(
+                 t
+                 5
+                ) [ConstDeclPNums]
+              ) [SignalCDecls]
+            ) [ConstDecls]
+          ) [ListProgConst]
+        ) [ListProgs]
+        ListProgConst(
+          ConstDecls(
+            Type(
+             bool
+            ) [Type]
+            SignalCDecls(
+              ConstDeclPBool(
+               m
+               false
+              ) [ConstDeclPBool]
+            ) [SignalCDecls]
+          ) [ConstDecls]
+        ) [ListProgConst]
+      ) [ListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SinglVarDecl(
+            VarDecListI(
+             a
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SinglVarDecl(
+          BrVarDecListI(
+           c
+          ) [BrVarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      FormParams(
+        SingleFormalParamDecl(
+          FormalParamDeclB(
+            Type(
+             char
+            ) [Type]
+           b
+          ) [FormalParamDeclB]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                PrintStmt(
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [PrintStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                DesignatorStatementss(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                  Exprs(
+                    TermF(
+                      FactorBoolConst(
+                       true
+                      ) [FactorBoolConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignatorStatementss]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            Assignment(
+              ErrorDesignator(
+                DesignatorIdent(
+                 c
+                ) [DesignatorIdent]
+              ) [ErrorDesignator]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Exprs(
+              TermF(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+              ) [TermF]
+            ) [Exprs]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:11:12,563 - ===================================
+INFO  22:11:12,563 - Prepoznata char konstanta n na liniji 4
+INFO  22:11:12,563 - Prepoznata numericka konstanta t na liniji 5
+INFO  22:11:12,563 - Prepoznata bool konstanta m na liniji 6
+INFO  22:11:12,563 - Obradjuje se funkcija main na liniji 12
+INFO  22:11:12,563 - Prepoznata naredba print!
+INFO  22:11:12,563 - Prepoznata naredba print!
+INFO  22:11:12,563 -  Print count calls = 2
+INFO  22:11:12,563 -  Deklarisanih promenljivih ima = 5
+INFO  22:11:12,563 - ===================================
+ERROR 22:11:12,579 - Parsiranje NIJE uspesno zavrseno!

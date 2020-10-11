@@ -1,0 +1,151 @@
+INFO  23:27:22,697 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  23:27:22,863 - #2 program
+INFO  23:27:22,863 - #14 MJProgram
+INFO  23:27:22,863 - #14 int
+INFO  23:27:22,863 - #14 x
+INFO  23:27:22,863 - #7 ,
+INFO  23:27:22,863 - #14 y
+INFO  23:27:22,863 - #6 ;
+INFO  23:27:22,863 - #14 char
+INFO  23:27:22,863 - #14 z
+INFO  23:27:22,863 - #6 ;
+INFO  23:27:22,863 - #5 const
+INFO  23:27:22,863 - #14 int
+INFO  23:27:22,863 - #14 x
+INFO  23:27:22,863 - #8 =
+INFO  23:27:22,863 - #13 3
+INFO  23:27:22,863 - #6 ;
+INFO  23:27:22,863 - #3 {
+INFO  23:27:22,863 - #20 void
+INFO  23:27:22,863 - #14 main
+INFO  23:27:22,863 - #11 (
+INFO  23:27:22,863 - #14 char
+INFO  23:27:22,879 - #14 b
+INFO  23:27:22,879 - #12 )
+INFO  23:27:22,879 - #3 {
+INFO  23:27:22,879 - #36 print
+INFO  23:27:22,879 - #11 (
+INFO  23:27:22,879 - #13 1
+INFO  23:27:22,879 - #12 )
+INFO  23:27:22,879 - #6 ;
+INFO  23:27:22,879 - #36 print
+INFO  23:27:22,879 - #11 (
+INFO  23:27:22,879 - #13 2
+INFO  23:27:22,879 - #12 )
+INFO  23:27:22,879 - #6 ;
+INFO  23:27:22,879 - #4 }
+INFO  23:27:22,879 - #4 }
+INFO  23:27:22,910 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        NoListProgs(
+        ) [NoListProgs]
+        ListProgVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              SinglVarDecl(
+                VarDecListI(
+                 x
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+              VarDecListI(
+               y
+              ) [VarDecListI]
+            ) [VarDeclarations]
+          ) [VarDecl]
+        ) [ListProgVar]
+      ) [ListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SinglVarDecl(
+            VarDecListI(
+             z
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgConst(
+      ConstDecls(
+        Type(
+         int
+        ) [Type]
+        SignalCDecls(
+          ConstDeclPNums(
+           x
+           3
+          ) [ConstDeclPNums]
+        ) [SignalCDecls]
+      ) [ConstDecls]
+    ) [ListProgConst]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        FormParams(
+          SingleFormalParamDecl(
+            FormalParamDeclB(
+              Type(
+               char
+              ) [Type]
+             b
+            ) [FormalParamDeclB]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:27:22,910 - ===================================
+ERROR 23:27:22,910 - Na liniji: 4 Semanticka greska: konstanta x vec postoji u ovom opsegu na liniji 4
+INFO  23:27:22,910 - Prepoznata naredba print!
+INFO  23:27:22,910 - Prepoznata naredba print!
+INFO  23:27:22,910 -  Print count calls = 2
+INFO  23:27:22,910 -  Deklarisanih promenljivih ima = 3
+INFO  23:27:22,910 - ===================================
+ERROR 23:27:22,910 - Parsiranje NIJE uspesno zavrseno!

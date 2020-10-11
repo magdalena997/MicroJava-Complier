@@ -1,0 +1,249 @@
+INFO  15:20:49,236 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  15:20:49,543 - #2 program
+INFO  15:20:49,543 - #14 MJProgram
+INFO  15:20:49,546 - #14 int
+INFO  15:20:49,548 - #14 x
+INFO  15:20:49,548 - #7 ,
+INFO  15:20:49,548 - #14 y
+INFO  15:20:49,551 - #6 ;
+INFO  15:20:49,551 - #14 char
+INFO  15:20:49,551 - #14 z
+INFO  15:20:49,551 - #6 ;
+INFO  15:20:49,551 - #5 const
+INFO  15:20:49,551 - #14 char
+INFO  15:20:49,551 - #14 n
+INFO  15:20:49,551 - #8 =
+INFO  15:20:49,551 - #15 a
+INFO  15:20:49,551 - #6 ;
+INFO  15:20:49,551 - #5 const
+INFO  15:20:49,555 - #14 int
+INFO  15:20:49,555 - #14 t
+INFO  15:20:49,555 - #8 =
+INFO  15:20:49,555 - #13 5
+INFO  15:20:49,555 - #6 ;
+INFO  15:20:49,555 - #5 const
+INFO  15:20:49,555 - #14 bool
+INFO  15:20:49,555 - #14 m
+INFO  15:20:49,555 - #8 =
+INFO  15:20:49,555 - #16 false
+INFO  15:20:49,559 - #6 ;
+INFO  15:20:49,559 - #3 {
+INFO  15:20:49,559 - #20 void
+INFO  15:20:49,561 - #14 main
+INFO  15:20:49,561 - #11 (
+INFO  15:20:49,561 - #14 char
+INFO  15:20:49,561 - #14 b
+INFO  15:20:49,561 - #12 )
+INFO  15:20:49,561 - #3 {
+INFO  15:20:49,565 - #36 print
+INFO  15:20:49,565 - #11 (
+INFO  15:20:49,565 - #13 1
+INFO  15:20:49,565 - #12 )
+INFO  15:20:49,569 - #6 ;
+INFO  15:20:49,569 - #14 a
+INFO  15:20:49,569 - #8 =
+INFO  15:20:49,569 - #16 true
+INFO  15:20:49,569 - #6 ;
+INFO  15:20:49,573 - #36 print
+INFO  15:20:49,573 - #11 (
+INFO  15:20:49,573 - #13 2
+INFO  15:20:49,573 - #12 )
+INFO  15:20:49,573 - #6 ;
+INFO  15:20:49,577 - #4 }
+INFO  15:20:49,577 - #14 int
+INFO  15:20:49,581 - #14 visit
+INFO  15:20:49,581 - #11 (
+INFO  15:20:49,581 - #14 int
+INFO  15:20:49,581 - #14 a
+INFO  15:20:49,581 - #12 )
+INFO  15:20:49,581 - #3 {
+INFO  15:20:49,581 - #4 }
+INFO  15:20:49,581 - #4 }
+INFO  15:20:49,637 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        ListProgs(
+          ListProgs(
+            NoListProgs(
+            ) [NoListProgs]
+            ListProgVar(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclarations(
+                  SinglVarDecl(
+                    VarDecListI(
+                     x
+                    ) [VarDecListI]
+                  ) [SinglVarDecl]
+                  VarDecListI(
+                   y
+                  ) [VarDecListI]
+                ) [VarDeclarations]
+              ) [VarDecl]
+            ) [ListProgVar]
+          ) [ListProgs]
+          ListProgVar(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              SinglVarDecl(
+                VarDecListI(
+                 z
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+            ) [VarDecl]
+          ) [ListProgVar]
+        ) [ListProgs]
+        ListProgConst(
+          ConstDecls(
+            Type(
+             char
+            ) [Type]
+            SignalCDecls(
+              ConstDeclPChar(
+               n
+               a
+              ) [ConstDeclPChar]
+            ) [SignalCDecls]
+          ) [ConstDecls]
+        ) [ListProgConst]
+      ) [ListProgs]
+      ListProgConst(
+        ConstDecls(
+          Type(
+           int
+          ) [Type]
+          SignalCDecls(
+            ConstDeclPNums(
+             t
+             5
+            ) [ConstDeclPNums]
+          ) [SignalCDecls]
+        ) [ConstDecls]
+      ) [ListProgConst]
+    ) [ListProgs]
+    ListProgConst(
+      ConstDecls(
+        Type(
+         bool
+        ) [Type]
+        SignalCDecls(
+          ConstDeclPBool(
+           m
+           false
+          ) [ConstDeclPBool]
+        ) [SignalCDecls]
+      ) [ConstDecls]
+    ) [ListProgConst]
+  ) [ListProgs]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclTF(
+        MethodDeclVoid(
+         main
+        ) [MethodDeclVoid]
+        FormParams(
+          SingleFormalParamDecl(
+            FormalParamDeclB(
+              Type(
+               char
+              ) [Type]
+             b
+            ) [FormalParamDeclB]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                PrintStmt(
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [PrintStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                DesignatorStatementss(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                  Exprs(
+                    TermF(
+                      FactorBoolConst(
+                       true
+                      ) [FactorBoolConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignatorStatementss]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclTF]
+    ) [MethodDeclarations]
+    MethodDeclTF(
+      MethodDeclTypeT(
+        Type(
+         int
+        ) [Type]
+       visit
+      ) [MethodDeclTypeT]
+      FormParams(
+        SingleFormalParamDecl(
+          FormalParamDeclB(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormalParamDeclB]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:20:49,637 - ===================================
+INFO  15:20:49,653 - Prepoznata char konstanta n na liniji 4
+INFO  15:20:49,653 - Prepoznata numericka konstanta t na liniji 5
+INFO  15:20:49,653 - Prepoznata bool konstanta m na liniji 6
+INFO  15:20:49,653 - Obradjuje se funkcija main na liniji 10
+INFO  15:20:49,653 - Prepoznata naredba print!
+INFO  15:20:49,657 - Prepoznata naredba print!
+INFO  15:20:49,661 - Obradjuje se funkcija visit ciji je tip int na liniji 18
+INFO  15:20:49,661 -  Print count calls = 2
+INFO  15:20:49,661 -  Deklarisanih promenljivih ima = 3
+INFO  15:20:49,661 - ===================================
+INFO  15:20:49,661 - Parsiranje uspesno zavrseno!

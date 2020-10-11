@@ -1,0 +1,155 @@
+INFO  22:02:13,530 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  22:02:13,709 - #2 program
+INFO  22:02:13,709 - #14 MJProgram
+INFO  22:02:13,710 - #14 int
+INFO  22:02:13,712 - #14 x
+INFO  22:02:13,714 - #7 ,
+INFO  22:02:13,714 - #14 y
+INFO  22:02:13,714 - #6 ;
+INFO  22:02:13,715 - #14 char
+INFO  22:02:13,717 - #14 z
+INFO  22:02:13,717 - #6 ;
+INFO  22:02:13,717 - #14 bool
+INFO  22:02:13,717 - #14 x
+INFO  22:02:13,718 - #7 ,
+INFO  22:02:13,718 - #6 ;
+ERROR 22:02:13,718 - 
+Sintaksna greska na liniji 4
+INFO  22:02:13,719 - #3 {
+INFO  22:02:13,719 - #20 void
+INFO  22:02:13,719 - #14 main
+INFO  22:02:13,723 - #11 (
+INFO  22:02:13,724 - #14 char
+INFO  22:02:13,724 - #14 b
+INFO  22:02:13,729 - #12 )
+INFO  22:02:13,729 - #3 {
+INFO  22:02:13,731 - #36 print
+INFO  22:02:13,732 - #11 (
+INFO  22:02:13,732 - #13 1
+INFO  22:02:13,732 - #12 )
+INFO  22:02:13,733 - #6 ;
+INFO  22:02:13,733 - #36 print
+INFO  22:02:13,733 - #11 (
+INFO  22:02:13,733 - #13 2
+INFO  22:02:13,734 - #12 )
+INFO  22:02:13,734 - #6 ;
+INFO  22:02:13,734 - #4 }
+INFO  22:02:13,734 - #4 }
+INFO  22:02:13,770 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        NoListProgs(
+        ) [NoListProgs]
+        ListProgVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              SinglVarDecl(
+                VarDecListI(
+                 x
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+              VarDecListI(
+               y
+              ) [VarDecListI]
+            ) [VarDeclarations]
+          ) [VarDecl]
+        ) [ListProgVar]
+      ) [ListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SinglVarDecl(
+            VarDecListI(
+             z
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarations(
+          SinglVarDecl(
+            VarDecListI(
+             x
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+          ErrorVarDecs(
+          ) [ErrorVarDecs]
+        ) [VarDeclarations]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        FormParams(
+          SingleFormalParamDecl(
+            FormalParamDeclB(
+              Type(
+               char
+              ) [Type]
+             b
+            ) [FormalParamDeclB]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:02:13,773 - ===================================
+ERROR 22:02:13,773 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 22:02:13,773 - Na liniji: 4 Semanticka greska: promenljiva x vec postoji u ovom opsegu na liniji 4
+INFO  22:02:13,773 - Prepoznata naredba print!
+INFO  22:02:13,773 - Prepoznata naredba print!
+INFO  22:02:13,773 -  Print count calls = 2
+INFO  22:02:13,773 -  Deklarisanih promenljivih ima = 4
+INFO  22:02:13,773 - ===================================
+ERROR 22:02:13,773 - Parsiranje NIJE uspesno zavrseno!

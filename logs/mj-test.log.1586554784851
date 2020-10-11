@@ -1,0 +1,98 @@
+INFO  23:39:19,502 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  23:39:19,625 - #2 program
+INFO  23:39:19,625 - #14 MJProgram
+INFO  23:39:19,625 - #14 int
+INFO  23:39:19,625 - #14 x
+INFO  23:39:19,625 - #7 ,
+INFO  23:39:19,625 - #14 y
+INFO  23:39:19,625 - #6 ;
+INFO  23:39:19,625 - #3 {
+INFO  23:39:19,625 - #20 void
+INFO  23:39:19,625 - #14 main
+INFO  23:39:19,625 - #11 (
+INFO  23:39:19,625 - #12 )
+INFO  23:39:19,625 - #3 {
+INFO  23:39:19,625 - #36 print
+INFO  23:39:19,625 - #11 (
+INFO  23:39:19,625 - #13 1
+INFO  23:39:19,625 - #12 )
+INFO  23:39:19,625 - #6 ;
+INFO  23:39:19,625 - #36 print
+INFO  23:39:19,625 - #11 (
+INFO  23:39:19,625 - #13 2
+INFO  23:39:19,640 - #12 )
+INFO  23:39:19,640 - #6 ;
+INFO  23:39:19,640 - #4 }
+INFO  23:39:19,640 - #4 }
+INFO  23:39:19,647 - Program(
+ MJProgram
+  ListProgs(
+    NoListProgs(
+    ) [NoListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          SinglVarDecl(
+            VarDecListI(
+             x
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+          VarDecListI(
+           y
+          ) [VarDecListI]
+        ) [VarDeclarations]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        NoFormParam(
+        ) [NoFormParam]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:39:19,647 - ===================================
+INFO  23:39:19,647 - Prepoznata naredba print!
+INFO  23:39:19,647 - Prepoznata naredba print!
+INFO  23:39:19,647 -  Print count calls = 2
+INFO  23:39:19,647 -  Deklarisanih promenljivih ima = 1

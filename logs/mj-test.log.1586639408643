@@ -1,0 +1,60 @@
+INFO  23:08:35,806 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  23:08:35,950 - #2 program
+INFO  23:08:35,950 - #14 MJProgram
+INFO  23:08:35,950 - #14 int
+INFO  23:08:35,954 - #14 x
+INFO  23:08:35,954 - #7 ,
+INFO  23:08:35,954 - #14 y
+INFO  23:08:35,954 - #6 ;
+INFO  23:08:35,954 - #14 char
+INFO  23:08:35,958 - #14 z
+INFO  23:08:35,958 - #6 ;
+INFO  23:08:35,958 - #14 int
+INFO  23:08:35,958 - #14 x
+INFO  23:08:35,958 - #7 ,
+INFO  23:08:35,958 - #6 ;
+ERROR 23:08:35,958 - 
+Sintaksna greska na liniji 4
+INFO  23:08:35,958 - #3 {
+INFO  23:08:35,958 - #20 void
+INFO  23:08:35,958 - #14 main
+INFO  23:08:35,962 - #11 (
+INFO  23:08:35,962 - #14 int
+INFO  23:08:35,962 - #14 a
+INFO  23:08:35,967 - #9 [
+INFO  23:08:35,967 - #10 ]
+INFO  23:08:35,967 - #7 ,
+INFO  23:08:35,967 - #14 char
+INFO  23:08:35,967 - #14 b
+INFO  23:08:35,967 - #12 )
+INFO  23:08:35,967 - #3 {
+INFO  23:08:35,967 - #36 print
+INFO  23:08:35,967 - #11 (
+INFO  23:08:35,967 - #13 1
+INFO  23:08:35,967 - #12 )
+INFO  23:08:35,971 - #6 ;
+INFO  23:08:35,971 - #14 x
+INFO  23:08:35,971 - #8 =
+INFO  23:08:35,971 - #14 y
+INFO  23:08:35,971 - #45 +
+INFO  23:08:35,971 - #13 1
+INFO  23:08:35,971 - #45 +
+INFO  23:08:35,971 - #6 ;
+ERROR 23:08:35,975 - 
+Sintaksna greska na liniji 9
+INFO  23:08:35,975 - #23 for
+INFO  23:08:35,975 - #11 (
+INFO  23:08:35,975 - #6 ;
+INFO  23:08:35,975 - #6 ;
+INFO  23:08:35,975 - #12 )
+INFO  23:08:35,975 - #6 ;
+ERROR 23:08:35,979 - 
+Sintaksna greska na liniji 11
+INFO  23:08:35,979 - #36 print
+INFO  23:08:35,979 - #11 (
+INFO  23:08:35,979 - #13 2
+INFO  23:08:35,979 - #12 )
+INFO  23:08:35,979 - #6 ;
+INFO  23:08:35,979 - #4 }
+INFO  23:08:35,979 - #4 }
+ERROR 23:08:35,979 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16

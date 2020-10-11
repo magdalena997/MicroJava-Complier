@@ -1,0 +1,48 @@
+program MJProgram
+	int , y;
+	int $;
+	^^
+	int x;
+	char k1 = 'a';
+	int a, b;
+
+{	
+	char k(int ) char aa;  {
+		
+		aa = 'a';
+		
+
+	}
+	
+	 	char f()int sum;{
+ 		sum = 54 + 32/2;
+ 		sum = sum * 2;
+ 		return sum;
+ 	}
+	
+	void main(int b2) char b1;  {
+
+		a = 1; 
+		b = 2;
+		
+		y = ;
+		
+		x = 'x';	
+		
+		x -= 2;
+		
+		y = f();
+		print(y); //140
+		
+		print(x); //-13
+		
+		print(2); //2
+		
+		b1 = k();
+		print(b1); //a
+		
+		
+	}
+	
+
+}

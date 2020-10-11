@@ -1,0 +1,26 @@
+INFO  20:30:50,800 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  20:30:50,809 - #1 program
+INFO  20:30:50,809 - #16 MJProgram
+INFO  20:30:50,809 - #16 int
+INFO  20:30:50,810 - #16 x
+INFO  20:30:50,810 - #37 ,
+INFO  20:30:50,810 - #16 y
+INFO  20:30:50,810 - #36 ;
+INFO  20:30:50,810 - #16 char
+INFO  20:30:50,810 - #16 z
+INFO  20:30:50,810 - #36 ;
+INFO  20:30:50,811 - #16 boolean
+INFO  20:30:50,811 - #16 x
+INFO  20:30:50,811 - #33 =
+INFO  20:30:50,811 - #19 true
+INFO  20:30:50,811 - #36 ;
+INFO  20:30:50,811 - #18 printableChar
+INFO  20:30:50,811 - #19 false
+INFO  20:30:50,812 - #43 {
+INFO  20:30:50,812 - #12 void
+INFO  20:30:50,812 - #16 main
+INFO  20:30:50,812 - #39 (
+INFO  20:30:50,814 - #40 )
+INFO  20:30:50,814 - #43 {
+INFO  20:30:50,814 - #44 }
+INFO  20:30:50,814 - #44 }

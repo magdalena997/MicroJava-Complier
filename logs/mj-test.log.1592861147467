@@ -1,0 +1,5 @@
+INFO  23:25:09,551 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\test301.mj
+INFO  23:25:09,739 - #14 test301
+ERROR 23:25:09,739 - 
+Sintaksna greska na liniji 3
+ERROR 23:25:09,739 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

@@ -1,0 +1,11 @@
+INFO  00:23:24,233 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\test1.mj
+INFO  00:23:24,402 - #2 program
+INFO  00:23:24,402 - #14 MJProgram
+INFO  00:23:24,402 - #5 const
+INFO  00:23:24,402 - #14 bool
+INFO  00:23:24,402 - #14 tacno
+INFO  00:23:24,402 - #8 =
+INFO  00:23:24,402 - #14 samam
+ERROR 00:23:24,402 - 
+Sintaksna greska na liniji 2
+ERROR 00:23:24,402 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

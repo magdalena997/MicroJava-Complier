@@ -1,0 +1,168 @@
+INFO  21:59:19,842 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  21:59:20,015 - #2 program
+INFO  21:59:20,015 - #14 MJProgram
+INFO  21:59:20,015 - #14 int
+INFO  21:59:20,018 - #14 x
+INFO  21:59:20,019 - #7 ,
+INFO  21:59:20,021 - #14 y
+INFO  21:59:20,024 - #6 ;
+INFO  21:59:20,030 - #14 char
+INFO  21:59:20,041 - #14 z
+INFO  21:59:20,041 - #6 ;
+INFO  21:59:20,041 - #14 bool
+INFO  21:59:20,041 - #14 x
+INFO  21:59:20,042 - #7 ,
+INFO  21:59:20,042 - #6 ;
+ERROR 21:59:20,042 - 
+Sintaksna greska na liniji 4
+INFO  21:59:20,042 - #3 {
+INFO  21:59:20,043 - #20 void
+INFO  21:59:20,043 - #14 main
+INFO  21:59:20,047 - #11 (
+INFO  21:59:20,047 - #14 int
+INFO  21:59:20,047 - #14 a
+INFO  21:59:20,048 - #9 [
+INFO  21:59:20,048 - #10 ]
+INFO  21:59:20,048 - #7 ,
+INFO  21:59:20,048 - #14 char
+INFO  21:59:20,048 - #14 b
+INFO  21:59:20,049 - #12 )
+INFO  21:59:20,049 - #3 {
+INFO  21:59:20,050 - #36 print
+INFO  21:59:20,052 - #11 (
+INFO  21:59:20,052 - #13 1
+INFO  21:59:20,052 - #12 )
+INFO  21:59:20,052 - #6 ;
+INFO  21:59:20,052 - #36 print
+INFO  21:59:20,053 - #11 (
+INFO  21:59:20,053 - #13 2
+INFO  21:59:20,053 - #12 )
+INFO  21:59:20,053 - #6 ;
+INFO  21:59:20,054 - #4 }
+INFO  21:59:20,054 - #4 }
+INFO  21:59:20,083 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        NoListProgs(
+        ) [NoListProgs]
+        ListProgVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              SinglVarDecl(
+                VarDecListI(
+                 x
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+              VarDecListI(
+               y
+              ) [VarDecListI]
+            ) [VarDeclarations]
+          ) [VarDecl]
+        ) [ListProgVar]
+      ) [ListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SinglVarDecl(
+            VarDecListI(
+             z
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarations(
+          SinglVarDecl(
+            VarDecListI(
+             x
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+          ErrorVarDecs(
+          ) [ErrorVarDecs]
+        ) [VarDeclarations]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              FormalParamDeclsB(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormalParamDeclsB]
+            ) [SingleFormalParamDecl]
+            FormalParamDeclB(
+              Type(
+               char
+              ) [Type]
+             b
+            ) [FormalParamDeclB]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:59:20,083 - ===================================
+ERROR 21:59:20,100 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 21:59:20,100 - Na liniji: 4 Semanticka greska: promenljiva x vec postoji u ovom opsegu na liniji 4
+INFO  21:59:20,101 - Prepoznata naredba print!
+INFO  21:59:20,101 - Prepoznata naredba print!
+INFO  21:59:20,101 -  Print count calls = 2
+INFO  21:59:20,101 -  Deklarisanih promenljivih ima = 4
+INFO  21:59:20,102 - ===================================
+ERROR 21:59:20,103 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,31 @@
+INFO  17:16:40,843 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  17:16:42,651 - #2 program
+INFO  17:16:42,652 - #14 MJProgram
+INFO  17:16:42,652 - #14 int
+INFO  17:16:42,672 - #14 x
+INFO  17:16:42,688 - #7 ,
+INFO  17:16:42,690 - #14 y
+INFO  17:16:42,690 - #6 ;
+INFO  17:16:42,692 - #14 char
+INFO  17:16:42,712 - #14 z
+INFO  17:16:42,713 - #6 ;
+INFO  17:16:42,713 - #5 const
+INFO  17:16:42,713 - #14 int
+INFO  17:16:42,715 - #14 n
+INFO  17:16:42,715 - #8 =
+INFO  17:16:42,715 - #13 3
+INFO  17:16:42,716 - #7 ,
+INFO  17:16:42,716 - #14 m
+INFO  17:16:42,717 - #8 =
+INFO  17:16:42,717 - #13 4
+INFO  17:16:42,719 - #6 ;
+INFO  17:16:42,719 - #5 const
+INFO  17:16:42,721 - #14 char
+INFO  17:16:42,722 - #14 t
+INFO  17:16:42,722 - #8 =
+INFO  17:16:42,723 - #13 5
+INFO  17:16:42,723 - #6 ;
+INFO  17:16:42,724 - #20 void
+ERROR 17:16:42,724 - 
+Sintaksna greska na liniji 6
+ERROR 17:16:42,724 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

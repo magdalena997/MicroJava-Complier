@@ -1,0 +1,76 @@
+INFO  23:30:41,774 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  23:30:41,928 - #2 program
+INFO  23:30:41,928 - #14 MJProgram
+INFO  23:30:41,928 - #14 int
+INFO  23:30:41,928 - #14 x
+INFO  23:30:41,928 - #7 ,
+INFO  23:30:41,928 - #14 y
+INFO  23:30:41,928 - #6 ;
+INFO  23:30:41,928 - #14 char
+INFO  23:30:41,928 - #14 z
+INFO  23:30:41,943 - #6 ;
+INFO  23:30:41,943 - #3 {
+INFO  23:30:41,943 - #20 void
+INFO  23:30:41,943 - #14 main
+INFO  23:30:41,943 - #11 (
+INFO  23:30:41,943 - #12 )
+INFO  23:30:41,943 - #3 {
+INFO  23:30:41,943 - #4 }
+INFO  23:30:41,943 - #4 }
+INFO  23:30:41,943 - Program(
+ MJProgram
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            SinglVarDecl(
+              VarDecListI(
+               x
+              ) [VarDecListI]
+            ) [SinglVarDecl]
+            VarDecListI(
+             y
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        SinglVarDecl(
+          VarDecListI(
+           z
+          ) [VarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        NoFormParam(
+        ) [NoFormParam]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:30:41,943 - ===================================
+INFO  23:30:41,959 -  Print count calls = 0

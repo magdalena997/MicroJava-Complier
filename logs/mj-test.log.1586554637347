@@ -1,0 +1,114 @@
+INFO  23:32:47,217 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  23:32:48,470 - #2 program
+INFO  23:32:48,470 - #14 MJProgram
+INFO  23:32:48,484 - #14 int
+INFO  23:32:48,486 - #14 x
+INFO  23:32:48,502 - #7 ,
+INFO  23:32:48,502 - #14 y
+INFO  23:32:48,502 - #6 ;
+INFO  23:32:48,502 - #14 char
+INFO  23:32:48,517 - #14 z
+INFO  23:32:48,517 - #6 ;
+INFO  23:32:48,517 - #3 {
+INFO  23:32:48,517 - #20 void
+INFO  23:32:48,533 - #14 main
+INFO  23:32:48,533 - #11 (
+INFO  23:32:48,533 - #12 )
+INFO  23:32:48,533 - #3 {
+INFO  23:32:48,548 - #36 print
+INFO  23:32:48,564 - #11 (
+INFO  23:32:48,564 - #13 1
+INFO  23:32:48,564 - #12 )
+INFO  23:32:48,564 - #6 ;
+INFO  23:32:48,564 - #36 print
+INFO  23:32:48,570 - #11 (
+INFO  23:32:48,570 - #13 2
+INFO  23:32:48,570 - #12 )
+INFO  23:32:48,570 - #6 ;
+INFO  23:32:48,570 - #4 }
+INFO  23:32:48,570 - #4 }
+INFO  23:32:48,585 - Program(
+ MJProgram
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            SinglVarDecl(
+              VarDecListI(
+               x
+              ) [VarDecListI]
+            ) [SinglVarDecl]
+            VarDecListI(
+             y
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        SinglVarDecl(
+          VarDecListI(
+           z
+          ) [VarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        NoFormParam(
+        ) [NoFormParam]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:32:48,585 - ===================================
+INFO  23:32:48,648 - Prepoznata naredba print!
+INFO  23:32:48,648 - Prepoznata naredba print!
+INFO  23:32:48,648 -  Print count calls = 2

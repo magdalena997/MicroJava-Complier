@@ -1,0 +1,46 @@
+INFO  23:19:11,132 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\test2.mj
+INFO  23:19:11,377 - #2 program
+INFO  23:19:11,377 - #14 MJProgram
+INFO  23:19:11,377 - #14 int
+INFO  23:19:11,379 - #7 ,
+ERROR 23:19:11,379 - 
+Sintaksna greska na liniji 2
+INFO  23:19:11,379 - #14 y
+INFO  23:19:11,379 - #6 ;
+INFO  23:19:11,379 - #14 int
+INFO  23:19:11,389 - #6 ;
+ERROR 23:19:11,389 - 
+Sintaksna greska na liniji 3
+INFO  23:19:11,389 - #14 int
+INFO  23:19:11,389 - #14 x
+INFO  23:19:11,389 - #6 ;
+INFO  23:19:11,389 - #14 char
+INFO  23:19:11,397 - #14 k1
+INFO  23:19:11,397 - #8 =
+ERROR 23:19:11,397 - 
+Sintaksna greska na liniji 6
+INFO  23:19:11,397 - #15 a
+INFO  23:19:11,397 - #6 ;
+INFO  23:19:11,397 - #14 int
+INFO  23:19:11,397 - #14 a
+INFO  23:19:11,399 - #7 ,
+INFO  23:19:11,399 - #14 b
+INFO  23:19:11,399 - #6 ;
+INFO  23:19:11,399 - #16 true
+ERROR 23:19:11,399 - 
+Sintaksna greska na liniji 8
+INFO  23:19:11,399 - #3 {
+INFO  23:19:11,399 - #14 char
+INFO  23:19:11,399 - #14 k
+INFO  23:19:11,399 - #11 (
+INFO  23:19:11,399 - #14 int
+INFO  23:19:11,399 - #12 )
+INFO  23:19:11,399 - #14 char
+INFO  23:19:11,399 - #14 aa
+INFO  23:19:11,399 - #6 ;
+INFO  23:19:11,399 - #3 {
+INFO  23:19:11,399 - #14 aa
+INFO  23:19:11,399 - #8 =
+ERROR 23:19:11,399 - 
+Sintaksna greska na liniji 13
+ERROR 23:19:11,399 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

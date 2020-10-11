@@ -1,0 +1,218 @@
+INFO  22:40:07,815 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  22:40:07,993 - #2 program
+INFO  22:40:07,993 - #14 MJProgram
+INFO  22:40:07,997 - #14 int
+INFO  22:40:07,997 - #14 x
+INFO  22:40:07,997 - #7 ,
+INFO  22:40:07,997 - #14 y
+INFO  22:40:07,997 - #6 ;
+INFO  22:40:08,001 - #14 int
+INFO  22:40:08,001 - #14 c
+INFO  22:40:08,001 - #9 [
+INFO  22:40:08,001 - #10 ]
+INFO  22:40:08,001 - #6 ;
+INFO  22:40:08,001 - #3 {
+INFO  22:40:08,001 - #20 void
+INFO  22:40:08,001 - #14 main
+INFO  22:40:08,005 - #11 (
+INFO  22:40:08,005 - #12 )
+INFO  22:40:08,005 - #3 {
+INFO  22:40:08,005 - #14 c
+INFO  22:40:08,005 - #8 =
+INFO  22:40:08,009 - #26 new
+INFO  22:40:08,009 - #14 int
+INFO  22:40:08,009 - #9 [
+INFO  22:40:08,009 - #13 2
+INFO  22:40:08,009 - #10 ]
+INFO  22:40:08,009 - #6 ;
+INFO  22:40:08,009 - #14 c
+INFO  22:40:08,013 - #9 [
+INFO  22:40:08,013 - #13 0
+INFO  22:40:08,013 - #10 ]
+INFO  22:40:08,013 - #8 =
+INFO  22:40:08,013 - #13 3
+INFO  22:40:08,013 - #6 ;
+INFO  22:40:08,013 - #14 c
+INFO  22:40:08,013 - #9 [
+INFO  22:40:08,013 - #13 1
+INFO  22:40:08,013 - #10 ]
+INFO  22:40:08,013 - #8 =
+INFO  22:40:08,013 - #14 c
+INFO  22:40:08,013 - #9 [
+INFO  22:40:08,013 - #13 0
+INFO  22:40:08,013 - #10 ]
+INFO  22:40:08,013 - #32 *=
+INFO  22:40:08,013 - #13 3
+INFO  22:40:08,017 - #36 print
+ERROR 22:40:08,017 - 
+Sintaksna greska na liniji 14
+INFO  22:40:08,017 - #11 (
+INFO  22:40:08,017 - #14 c
+INFO  22:40:08,017 - #9 [
+INFO  22:40:08,025 - #13 1
+INFO  22:40:08,025 - #10 ]
+INFO  22:40:08,025 - #12 )
+INFO  22:40:08,029 - #6 ;
+INFO  22:40:08,029 - #36 print
+INFO  22:40:08,029 - #11 (
+INFO  22:40:08,029 - #13 2
+INFO  22:40:08,029 - #12 )
+INFO  22:40:08,029 - #6 ;
+INFO  22:40:08,029 - #4 }
+INFO  22:40:08,029 - #4 }
+INFO  22:40:08,057 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            SinglVarDecl(
+              VarDecListI(
+               x
+              ) [VarDecListI]
+            ) [SinglVarDecl]
+            VarDecListI(
+             y
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SinglVarDecl(
+          BrVarDecListI(
+           c
+          ) [BrVarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                Assignment(
+                  DesignatorStatementss(
+                    DesignatorIdent(
+                     c
+                    ) [DesignatorIdent]
+                    Exprs(
+                      TermF(
+                        FactorNewExpr(
+                          Type(
+                           int
+                          ) [Type]
+                          Exprs(
+                            TermF(
+                              FactorNumConst(
+                               2
+                              ) [FactorNumConst]
+                            ) [TermF]
+                          ) [Exprs]
+                        ) [FactorNewExpr]
+                      ) [TermF]
+                    ) [Exprs]
+                  ) [DesignatorStatementss]
+                ) [Assignment]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                DesignatorStatementss(
+                  DesignE(
+                    DesignatorIdent(
+                     c
+                    ) [DesignatorIdent]
+                    Exprs(
+                      TermF(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                      ) [TermF]
+                    ) [Exprs]
+                  ) [DesignE]
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       3
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignatorStatementss]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            Assignment(
+              ErrorDesignator(
+                DesignE(
+                  DesignatorIdent(
+                   c
+                  ) [DesignatorIdent]
+                  Exprs(
+                    TermF(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [DesignE]
+              ) [ErrorDesignator]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Exprs(
+              TermF(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+              ) [TermF]
+            ) [Exprs]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:40:08,057 - ===================================
+INFO  22:40:08,065 - Var: x tip 1 na liniji 2
+INFO  22:40:08,065 - Var: y tip 1 na liniji 2
+INFO  22:40:08,065 - Var: c tip 1 na liniji 3
+INFO  22:40:08,065 - Obradjuje se funkcija main na liniji 5
+INFO  22:40:08,065 - Objekat je c tipa  1 na liniji 6
+INFO  22:40:08,073 - Objekat je c tipa  1 na liniji 8
+INFO  22:40:08,073 - Objekat je element niza c tipa niz 5 na liniji 8
+INFO  22:40:08,073 - Objekat je c tipa  1 na liniji 12
+INFO  22:40:08,073 - Objekat je element niza c tipa niz 5 na liniji 12
+INFO  22:40:08,073 -  Print count calls = 1
+INFO  22:40:08,073 -  Deklarisanih promenljivih ima = 3
+INFO  22:40:08,073 - ===================================
+ERROR 22:40:08,077 - Parsiranje NIJE uspesno zavrseno!

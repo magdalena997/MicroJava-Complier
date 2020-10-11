@@ -1,0 +1,122 @@
+INFO  23:38:53,611 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  23:38:53,765 - #2 program
+INFO  23:38:53,765 - #14 MJProgram
+INFO  23:38:53,765 - #14 int
+INFO  23:38:53,765 - #14 x
+INFO  23:38:53,765 - #7 ,
+INFO  23:38:53,765 - #14 y
+INFO  23:38:53,765 - #7 ,
+INFO  23:38:53,765 - #14 n
+INFO  23:38:53,765 - #6 ;
+INFO  23:38:53,765 - #14 char
+INFO  23:38:53,765 - #14 z
+INFO  23:38:53,765 - #6 ;
+INFO  23:38:53,765 - #3 {
+INFO  23:38:53,765 - #20 void
+INFO  23:38:53,765 - #14 main
+INFO  23:38:53,765 - #11 (
+INFO  23:38:53,765 - #12 )
+INFO  23:38:53,765 - #3 {
+INFO  23:38:53,765 - #36 print
+INFO  23:38:53,765 - #11 (
+INFO  23:38:53,780 - #13 1
+INFO  23:38:53,780 - #12 )
+INFO  23:38:53,780 - #6 ;
+INFO  23:38:53,780 - #36 print
+INFO  23:38:53,780 - #11 (
+INFO  23:38:53,780 - #13 2
+INFO  23:38:53,780 - #12 )
+INFO  23:38:53,780 - #6 ;
+INFO  23:38:53,780 - #4 }
+INFO  23:38:53,780 - #4 }
+INFO  23:38:53,780 - Program(
+ MJProgram
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            VarDeclarations(
+              SinglVarDecl(
+                VarDecListI(
+                 x
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+              VarDecListI(
+               y
+              ) [VarDecListI]
+            ) [VarDeclarations]
+            VarDecListI(
+             n
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        SinglVarDecl(
+          VarDecListI(
+           z
+          ) [VarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        NoFormParam(
+        ) [NoFormParam]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:38:53,780 - ===================================
+INFO  23:38:53,780 - Prepoznata naredba print!
+INFO  23:38:53,780 - Prepoznata naredba print!
+INFO  23:38:53,780 -  Print count calls = 2
+INFO  23:38:53,780 -  Deklarisanih promenljivih ima = 2

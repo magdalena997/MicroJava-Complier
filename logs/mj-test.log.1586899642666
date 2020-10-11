@@ -1,0 +1,147 @@
+INFO  22:22:18,480 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  22:22:18,606 - #2 program
+INFO  22:22:18,606 - #14 MJProgram
+INFO  22:22:18,606 - #14 int
+INFO  22:22:18,606 - #14 x
+INFO  22:22:18,606 - #7 ,
+INFO  22:22:18,606 - #14 y
+INFO  22:22:18,606 - #6 ;
+INFO  22:22:18,606 - #14 char
+INFO  22:22:18,622 - #14 z
+INFO  22:22:18,622 - #6 ;
+INFO  22:22:18,622 - #14 bool
+INFO  22:22:18,622 - #14 n
+INFO  22:22:18,622 - #6 ;
+INFO  22:22:18,622 - #3 {
+INFO  22:22:18,622 - #20 void
+INFO  22:22:18,622 - #14 main
+INFO  22:22:18,622 - #11 (
+INFO  22:22:18,622 - #14 char
+INFO  22:22:18,622 - #14 b
+INFO  22:22:18,622 - #12 )
+INFO  22:22:18,622 - #3 {
+INFO  22:22:18,622 - #36 print
+INFO  22:22:18,685 - #11 (
+INFO  22:22:18,685 - #13 1
+INFO  22:22:18,685 - #12 )
+INFO  22:22:18,685 - #6 ;
+INFO  22:22:18,685 - #36 print
+INFO  22:22:18,685 - #11 (
+INFO  22:22:18,700 - #13 2
+INFO  22:22:18,700 - #12 )
+INFO  22:22:18,700 - #6 ;
+INFO  22:22:18,700 - #4 }
+INFO  22:22:18,700 - #4 }
+INFO  22:22:18,763 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      ListProgs(
+        NoListProgs(
+        ) [NoListProgs]
+        ListProgVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              SinglVarDecl(
+                VarDecListI(
+                 x
+                ) [VarDecListI]
+              ) [SinglVarDecl]
+              VarDecListI(
+               y
+              ) [VarDecListI]
+            ) [VarDeclarations]
+          ) [VarDecl]
+        ) [ListProgVar]
+      ) [ListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SinglVarDecl(
+            VarDecListI(
+             z
+            ) [VarDecListI]
+          ) [SinglVarDecl]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        SinglVarDecl(
+          VarDecListI(
+           n
+          ) [VarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      MethodDeclLParens(
+        FormParams(
+          SingleFormalParamDecl(
+            FormalParamDeclB(
+              Type(
+               char
+              ) [Type]
+             b
+            ) [FormalParamDeclB]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoListVarDecls(
+        ) [NoListVarDecls]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                Exprs(
+                  TermF(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermF]
+                ) [Exprs]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDeclLParens]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:22:18,763 - ===================================
+ERROR 22:22:18,778 - Nije pronadjen tip bool u tabeli simbola! 
+INFO  22:22:18,778 - Prepoznata naredba print!
+INFO  22:22:18,794 - Prepoznata naredba print!
+INFO  22:22:18,794 -  Print count calls = 2
+INFO  22:22:18,794 -  Deklarisanih promenljivih ima = 4
+INFO  22:22:18,794 - ===================================
+ERROR 22:22:18,794 - Parsiranje NIJE uspesno zavrseno!

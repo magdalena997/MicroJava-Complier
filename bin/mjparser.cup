@@ -1,0 +1,339 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	 errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LCURLYB, RCURLYB, CONST, SEMI, COMMA, EQUAL, LSQUAREB, RSQUAREB, LPAREN, RPAREN;
+terminal Integer NUMCONST;
+terminal String IDENT;
+terminal Character CHARCONST;
+terminal String BOOLCONST;
+terminal CLASS, EXTENDS, ABSTRACT, VOID, IF, ELSE, FOR, BREAK;
+terminal MINUS, NEW, POINT, ADD, SUB, DIV, MOD, MUL;
+terminal CONTINUE, RETURN, READ, PRINT, ORLOGICAL, ANDLOGICAL;
+terminal EQUALTO, NOTEQUAL, GREATER, GREQUAL, LESS, LESSEQUAL, PLUS, MULTIPLICATION, DIVISION, PERCENT;
+terminal INCREMENT, DECREMENT;
+
+nonterminal Lists, MethodDecList, ListProg, ConstDecl, VarDecl, AbstractClassDecl, ClassDecl;
+nonterminal ConstDeclList, ConstDeclP;
+nonterminal ListVarDecl, VarDecListP;
+nonterminal FormPars, FormalParamList, FormalParamDecl, StatementList, AbstractList, AbstractListP;
+nonterminal Statement, Matched, Unmatched, Condition, DesignatorStatement, DesignatorStatements, Conditions;
+nonterminal ActPars, ActParsList, CondTerm, CondFact, Relop;
+nonterminal Addop, Mulop, AbstractMethodDecl, Assignop;
+nonterminal AddopRight, AddopLeft, MulopRight, MulopLeft;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, MethodDeclType, Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, VarDecList, Expr, Term, Factor;
+
+Program ::= (Program) PROG ProgName:p Lists LCURLYB MethodDecList RCURLYB;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+Lists ::= (ListProgs) Lists ListProg
+		|
+		(NoListProgs) /* epsilon */
+		;
+
+ListProg ::= (ListProgConst) ConstDecl
+			|
+			(ListProgVar) VarDecl
+			|
+			(ListProgClass) ClassDecl
+			;
+
+ConstDecl ::= (ConstDecls) CONST Type ConstDeclList SEMI;
+
+
+ConstDeclList ::= (CDecls) ConstDeclList COMMA ConstDeclP
+				|
+				(SignalCDecls) ConstDeclP
+				;
+
+ConstDeclP ::= (ConstDeclPNums) IDENT:NameConstN EQUAL NUMCONST:numC
+			| (ConstDeclPChar) IDENT:NameConstC EQUAL CHARCONST:charC
+			| (ConstDeclPBool) IDENT:NameConstB EQUAL BOOLCONST:boolC
+			;
+			
+ListVarDecl ::= (ListVarDecls) ListVarDecl VarDecl 
+			|
+			(NoListVarDecls) /* epsilon */
+			;
+
+
+VarDecl ::= (VarDecl) Type VarDecList SEMI;
+				
+VarDecList ::= (VarDeclarations)  VarDecList COMMA VarDecListP
+			|
+			(SinglVarDecl) VarDecListP
+			;
+			
+VarDecListP ::= (VarDecListI) IDENT:varIdent
+			|
+			(BrVarDecListI) IDENT:varIdenList LSQUAREB RSQUAREB
+			| 
+			(ErrorVarDecs) error
+			;
+
+ClassDecl ::= (ClassDeclsE)  CLASS IDENT:name EXTENDS Type:type LCURLYB ListVarDecl RCURLYB
+			| (ClassDecls) CLASS IDENT:name LCURLYB ListVarDecl RCURLYB
+			| (ClassDeclsEM) CLASS IDENT:name EXTENDS Type:type LCURLYB ListVarDecl LCURLYB MethodDecList RCURLYB RCURLYB
+			| (ClassDeclsM) CLASS IDENT:name LCURLYB ListVarDecl LCURLYB MethodDecList RCURLYB RCURLYB
+			;
+
+AbstractClassDecl ::= (AbstractClassDeclE) ABSTRACT CLASS IDENT:abstractName EXTENDS Type LCURLYB ListVarDecl RCURLYB
+					| (AbstractClassDecls) ABSTRACT CLASS IDENT:abstractName LCURLYB ListVarDecl RCURLYB
+					| (AbstractClassDeclEM) ABSTRACT CLASS IDENT:abstractName EXTENDS Type LCURLYB ListVarDecl LCURLYB AbstractList RCURLYB RCURLYB
+					| (AbstractClassDeclsA) ABSTRACT CLASS IDENT:abstractName LCURLYB ListVarDecl LCURLYB AbstractList RCURLYB RCURLYB
+					;
+					
+AbstractList ::= (AbstractListMethods) AbstractList AbstractListP
+			| (NoAbstractListMethod) /* epsilon */
+			;
+	
+AbstractListP ::= (AbstractListMethod) 	MethodDecl
+				| (AbstractListAbstract) AbstractMethodDecl
+				;				
+
+MethodDecList ::= (MethodDeclarations) MethodDecList MethodDecl
+				|
+				(NoMethodDecl) /* epsilon */
+				;
+	
+MethodDecl ::= (MethodDeclTF) MethodDeclType LPAREN FormPars RPAREN ListVarDecl LCURLYB StatementList RCURLYB;
+
+
+
+MethodDeclType ::= (MethodDeclTypeT) Type:TmetName IDENT:metName
+				  | (MethodDeclVoid) VOID:TmetName IDENT:metName
+				  ;
+
+AbstractMethodDecl ::= (AbsMethDeclTF) ABSTRACT Type:t IDENT:i LPAREN FormPars RPAREN SEMI
+					| 
+					(AbsMethDeclV) ABSTRACT VOID:t IDENT:i LPAREN FormPars RPAREN SEMI
+					;
+
+					
+FormPars ::= (FormParams) FormalParamList
+		  |
+		  (NoFormParam) /* epsilon */
+		  ;
+
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+				|
+				(SingleFormalParamDecl) FormalParamDecl
+				;
+				
+FormalParamDecl ::= (FormalParamDeclsB) Type IDENT:formalNameB LSQUAREB RSQUAREB
+				| (FormalParamDeclB) Type IDENT:formalName
+				| (ErrorFormalParam) error
+				;	
+				
+Type ::= (Type) IDENT:typeName;
+
+StatementList ::= (Statements) StatementList Statement
+				|
+				(NoStmt) /* epsilon */
+				;
+				
+Statement ::= (MatchedStmt) Matched
+		   |
+		   (UnmatchedStmt) Unmatched
+		   ; 
+		   
+Unmatched ::= (UnmatchedIf) IF LPAREN Condition RPAREN Statement
+		 	|
+		 	(UnmatchedIfElse) IF LPAREN Condition RPAREN  Matched ELSE Unmatched
+		 	;
+		 	
+Matched ::= (Assignment) DesignatorStatement SEMI
+		   |
+		   (MatchedStatement) IF LPAREN Condition RPAREN  Matched ELSE Matched
+		   |
+		   (FORS) FOR LPAREN DesignatorStatements SEMI Conditions SEMI DesignatorStatements RPAREN 
+		   |
+		   (Breaks) BREAK SEMI
+		   |
+		   (Continues) CONTINUE SEMI
+		   |
+		   (ReturnExpr) RETURN Expr:t SEMI
+		   |
+		   (ReturnNoExpr) RETURN SEMI
+		   |
+		   (Reads) READ LPAREN Designator RPAREN SEMI
+		   |
+		   (PrintStmt) PRINT LPAREN Expr RPAREN SEMI
+		   |
+		   (PrintStmtC) PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI
+		   |
+		   (StatementSB) LCURLYB StatementList RCURLYB  
+		   ;
+
+DesignatorStatements ::= (DesignatorStatementt) DesignatorStatement
+						| 
+						(NoDesignatorStatements) /* epsilon */
+						;
+
+Conditions ::= (Conditionn) Condition
+			|
+			(NoConditions) /* epsilon */
+			; 
+
+DesignatorStatement ::= (DesignatorStatementss) Designator:dest EQUAL Expr:e
+					| (DesignatorAddop) Designator:dest AddopRight Expr:e
+					| (DesignatorMulop) Designator:dest MulopRight Expr:e
+					| (ErrorDesignator) Designator EQUAL error
+					| (DesignatorStatementsA) Designator LPAREN ActParsList RPAREN
+					| (DesignatorStatementsL) Designator LPAREN  RPAREN
+					| (DesignatorStatementsI) Designator INCREMENT
+					| (DesignatorStatementsD) Designator DECREMENT
+					;
+
+ActPars ::= (ActParams) ActParsList
+		|
+		(NoActParams) /* epsilon */
+		;
+		
+ActParsList ::= (ActParamsList) Expr COMMA ActParsList
+			| 
+			(SinglActParamsList) Expr;
+
+Condition ::= (Cond) Condition ORLOGICAL CondTerm
+			|
+			(SinglCond) CondTerm
+			;
+
+CondTerm ::= (CondTerms) CondTerm ANDLOGICAL CondFact
+			|
+			(SinglCondTerm) CondFact
+			;
+			
+CondFact ::= (CondFacts) Expr
+			|
+			(CondFactR) Expr Relop Expr
+			;
+
+Expr ::= (ExprMA) MINUS Term:t
+		| (ExprA) Designator:e AddopRight Term:t
+		| (ExprAddop) Expr:e AddopLeft Term:t 
+		| (Exprs) Term:t
+		;
+
+Term ::= (TermM) Term MulopLeft Factor
+		|
+		(TermMulop) Designator:d MulopRight Factor
+		|
+		(TermF) Factor:t
+		;
+
+Factor ::= (DesignatorFactor) Designator :s
+		| (DesignatorActPars) Designator:func LPAREN ActParsList RPAREN
+		| (FuncCall) Designator:func LPAREN  RPAREN
+		| (FactorNumConst) NUMCONST
+		| (FactorCharConst) CHARCONST
+		| (FactorBoolConst) BOOLCONST
+		| (FactorNew) NEW Type
+		| (FactorNewExpr) NEW Type LSQUAREB Expr RSQUAREB
+		| (FactorExpr) LPAREN Expr RPAREN
+		;
+		
+Designator ::= (DesignatorIdent) IDENT:designatorName
+			| (DesignP) Designator POINT IDENT
+			| (DesignE) Designator:designatorName LSQUAREB Expr RSQUAREB
+			;
+
+Assignop ::= (AssignopEQ) EQUAL
+		| (AssignopARi) AddopRight
+		| (AssignopMRt) MulopRight
+		;
+
+Relop ::= (RelopE) EQUALTO
+		| 
+		(RelopNE) NOTEQUAL
+		| 
+		(RelopGR) GREATER
+		| 
+		(RelopGRE) GREQUAL
+		| 
+		(RelopL) LESS
+		| 
+		(RelopLE) LESSEQUAL
+		;
+		
+Addop ::= (AddopLeftPLeft)  AddopLeft
+		| (AddopRightARight) AddopRight
+		;
+
+Mulop ::= (MulopLeftMLeft) MulopLeft
+		| (MulopRightRight) MulopRight
+		;
+		
+MulopRight ::= (MulopRightMUL) MUL
+			| (MulopRightDIV) DIV
+			| (MulopRightPMOD) MOD
+			;
+			
+MulopLeft ::= (MulopMUL) MULTIPLICATION
+		| (MulopDIV) DIVISION
+		| (MulopPER) PERCENT
+		;
+
+AddopLeft ::= (AddopPLUS) PLUS
+		| (AddopMIN) MINUS
+		;
+		
+AddopRight ::= (AddopADD) ADD
+			| (AddopSUB) SUB
+			;
+
+
+
+
+
+
+
+
+
+

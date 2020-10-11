@@ -1,0 +1,401 @@
+INFO  20:45:08,792 - Compiling source file: C:\Users\korisnik\Desktop\Magi PP\workspace\MJCompiler\test\program.mj
+INFO  20:45:08,924 - #2 program
+INFO  20:45:08,924 - #14 MJProgram
+INFO  20:45:08,924 - #14 int
+INFO  20:45:08,930 - #14 x
+INFO  20:45:08,930 - #7 ,
+INFO  20:45:08,930 - #14 y
+INFO  20:45:08,930 - #6 ;
+INFO  20:45:08,930 - #14 int
+INFO  20:45:08,930 - #14 c
+INFO  20:45:08,930 - #9 [
+INFO  20:45:08,930 - #10 ]
+INFO  20:45:08,930 - #6 ;
+INFO  20:45:08,930 - #3 {
+INFO  20:45:08,930 - #20 void
+INFO  20:45:08,930 - #14 main
+INFO  20:45:08,930 - #11 (
+INFO  20:45:08,930 - #12 )
+INFO  20:45:08,930 - #3 {
+INFO  20:45:08,930 - #14 c
+INFO  20:45:08,930 - #8 =
+INFO  20:45:08,930 - #26 new
+INFO  20:45:08,930 - #14 int
+INFO  20:45:08,930 - #9 [
+INFO  20:45:08,930 - #13 2
+INFO  20:45:08,930 - #10 ]
+INFO  20:45:08,930 - #6 ;
+INFO  20:45:08,930 - #14 c
+INFO  20:45:08,930 - #9 [
+INFO  20:45:08,930 - #13 1
+INFO  20:45:08,930 - #10 ]
+INFO  20:45:08,930 - #8 =
+INFO  20:45:08,930 - #13 4
+INFO  20:45:08,930 - #6 ;
+INFO  20:45:08,930 - #14 c
+INFO  20:45:08,930 - #9 [
+INFO  20:45:08,930 - #13 0
+INFO  20:45:08,930 - #10 ]
+INFO  20:45:08,930 - #8 =
+INFO  20:45:08,930 - #13 1
+INFO  20:45:08,930 - #6 ;
+INFO  20:45:08,930 - #14 y
+INFO  20:45:08,930 - #8 =
+INFO  20:45:08,930 - #13 4
+INFO  20:45:08,946 - #6 ;
+INFO  20:45:08,946 - #14 x
+INFO  20:45:08,946 - #8 =
+INFO  20:45:08,946 - #13 9
+INFO  20:45:08,946 - #6 ;
+INFO  20:45:08,946 - #14 c
+INFO  20:45:08,946 - #9 [
+INFO  20:45:08,946 - #13 1
+INFO  20:45:08,946 - #10 ]
+INFO  20:45:08,946 - #28 +=
+INFO  20:45:08,946 - #14 x
+INFO  20:45:08,946 - #6 ;
+INFO  20:45:08,946 - #36 print
+INFO  20:45:08,946 - #11 (
+INFO  20:45:08,946 - #14 c
+INFO  20:45:08,946 - #9 [
+INFO  20:45:08,946 - #13 1
+INFO  20:45:08,946 - #10 ]
+INFO  20:45:08,946 - #12 )
+INFO  20:45:08,946 - #6 ;
+INFO  20:45:08,946 - #14 x
+INFO  20:45:08,946 - #29 -=
+INFO  20:45:08,946 - #14 y
+INFO  20:45:08,946 - #28 +=
+INFO  20:45:08,946 - #14 y
+INFO  20:45:08,946 - #6 ;
+INFO  20:45:08,946 - #36 print
+INFO  20:45:08,946 - #11 (
+INFO  20:45:08,946 - #14 x
+INFO  20:45:08,946 - #12 )
+INFO  20:45:08,946 - #6 ;
+INFO  20:45:08,946 - #36 print
+INFO  20:45:08,946 - #11 (
+INFO  20:45:08,946 - #14 y
+INFO  20:45:08,946 - #12 )
+INFO  20:45:08,946 - #6 ;
+INFO  20:45:08,946 - #4 }
+INFO  20:45:08,946 - #4 }
+INFO  20:45:08,977 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ListProgs(
+    ListProgs(
+      NoListProgs(
+      ) [NoListProgs]
+      ListProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclarations(
+            SinglVarDecl(
+              VarDecListI(
+               x
+              ) [VarDecListI]
+            ) [SinglVarDecl]
+            VarDecListI(
+             y
+            ) [VarDecListI]
+          ) [VarDeclarations]
+        ) [VarDecl]
+      ) [ListProgVar]
+    ) [ListProgs]
+    ListProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SinglVarDecl(
+          BrVarDecListI(
+           c
+          ) [BrVarDecListI]
+        ) [SinglVarDecl]
+      ) [VarDecl]
+    ) [ListProgVar]
+  ) [ListProgs]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclTF(
+      MethodDeclVoid(
+       main
+      ) [MethodDeclVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoListVarDecls(
+      ) [NoListVarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          NoStmt(
+                          ) [NoStmt]
+                          MatchedStmt(
+                            Assignment(
+                              DesignatorStatementss(
+                                DesignatorIdent(
+                                 c
+                                ) [DesignatorIdent]
+                                Exprs(
+                                  TermF(
+                                    FactorNewExpr(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      Exprs(
+                                        TermF(
+                                          FactorNumConst(
+                                           2
+                                          ) [FactorNumConst]
+                                        ) [TermF]
+                                      ) [Exprs]
+                                    ) [FactorNewExpr]
+                                  ) [TermF]
+                                ) [Exprs]
+                              ) [DesignatorStatementss]
+                            ) [Assignment]
+                          ) [MatchedStmt]
+                        ) [Statements]
+                        MatchedStmt(
+                          Assignment(
+                            DesignatorStatementss(
+                              DesignE(
+                                DesignatorIdent(
+                                 c
+                                ) [DesignatorIdent]
+                                Exprs(
+                                  TermF(
+                                    FactorNumConst(
+                                     1
+                                    ) [FactorNumConst]
+                                  ) [TermF]
+                                ) [Exprs]
+                              ) [DesignE]
+                              Exprs(
+                                TermF(
+                                  FactorNumConst(
+                                   4
+                                  ) [FactorNumConst]
+                                ) [TermF]
+                              ) [Exprs]
+                            ) [DesignatorStatementss]
+                          ) [Assignment]
+                        ) [MatchedStmt]
+                      ) [Statements]
+                      MatchedStmt(
+                        Assignment(
+                          DesignatorStatementss(
+                            DesignE(
+                              DesignatorIdent(
+                               c
+                              ) [DesignatorIdent]
+                              Exprs(
+                                TermF(
+                                  FactorNumConst(
+                                   0
+                                  ) [FactorNumConst]
+                                ) [TermF]
+                              ) [Exprs]
+                            ) [DesignE]
+                            Exprs(
+                              TermF(
+                                FactorNumConst(
+                                 1
+                                ) [FactorNumConst]
+                              ) [TermF]
+                            ) [Exprs]
+                          ) [DesignatorStatementss]
+                        ) [Assignment]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                    MatchedStmt(
+                      Assignment(
+                        DesignatorStatementss(
+                          DesignatorIdent(
+                           y
+                          ) [DesignatorIdent]
+                          Exprs(
+                            TermF(
+                              FactorNumConst(
+                               4
+                              ) [FactorNumConst]
+                            ) [TermF]
+                          ) [Exprs]
+                        ) [DesignatorStatementss]
+                      ) [Assignment]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                  MatchedStmt(
+                    Assignment(
+                      DesignatorStatementss(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                        Exprs(
+                          TermF(
+                            FactorNumConst(
+                             9
+                            ) [FactorNumConst]
+                          ) [TermF]
+                        ) [Exprs]
+                      ) [DesignatorStatementss]
+                    ) [Assignment]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  Assignment(
+                    DesignatorAddop(
+                      DesignE(
+                        DesignatorIdent(
+                         c
+                        ) [DesignatorIdent]
+                        Exprs(
+                          TermF(
+                            FactorNumConst(
+                             1
+                            ) [FactorNumConst]
+                          ) [TermF]
+                        ) [Exprs]
+                      ) [DesignE]
+                      AddopADD(
+                      ) [AddopADD]
+                      Exprs(
+                        TermF(
+                          DesignatorFactor(
+                            DesignatorIdent(
+                             x
+                            ) [DesignatorIdent]
+                          ) [DesignatorFactor]
+                        ) [TermF]
+                      ) [Exprs]
+                    ) [DesignatorAddop]
+                  ) [Assignment]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                PrintStmt(
+                  Exprs(
+                    TermF(
+                      DesignatorFactor(
+                        DesignE(
+                          DesignatorIdent(
+                           c
+                          ) [DesignatorIdent]
+                          Exprs(
+                            TermF(
+                              FactorNumConst(
+                               1
+                              ) [FactorNumConst]
+                            ) [TermF]
+                          ) [Exprs]
+                        ) [DesignE]
+                      ) [DesignatorFactor]
+                    ) [TermF]
+                  ) [Exprs]
+                ) [PrintStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              Assignment(
+                DesignatorAddop(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  AddopSUB(
+                  ) [AddopSUB]
+                  ExprA(
+                    Exprs(
+                      TermF(
+                        DesignatorFactor(
+                          DesignatorIdent(
+                           y
+                          ) [DesignatorIdent]
+                        ) [DesignatorFactor]
+                      ) [TermF]
+                    ) [Exprs]
+                    AddopRightARight(
+                      AddopADD(
+                      ) [AddopADD]
+                    ) [AddopRightARight]
+                    TermF(
+                      DesignatorFactor(
+                        DesignatorIdent(
+                         y
+                        ) [DesignatorIdent]
+                      ) [DesignatorFactor]
+                    ) [TermF]
+                  ) [ExprA]
+                ) [DesignatorAddop]
+              ) [Assignment]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Exprs(
+                TermF(
+                  DesignatorFactor(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                  ) [DesignatorFactor]
+                ) [TermF]
+              ) [Exprs]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Exprs(
+              TermF(
+                DesignatorFactor(
+                  DesignatorIdent(
+                   y
+                  ) [DesignatorIdent]
+                ) [DesignatorFactor]
+              ) [TermF]
+            ) [Exprs]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDeclTF]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:45:08,977 - ===================================
+INFO  20:45:08,993 - Var: x tip 1 na liniji 2
+INFO  20:45:08,993 - Var: y tip 1 na liniji 2
+INFO  20:45:08,993 - Var: c tip 1 na liniji 3
+INFO  20:45:08,993 - Obradjuje se funkcija main na liniji 5
+INFO  20:45:08,993 - Objekat je c tipa  1 na liniji 6
+INFO  20:45:08,993 - Objekat je c tipa  1 na liniji 8
+INFO  20:45:08,993 - Objekat je element niza c tipa niz 5 na liniji 8
+INFO  20:45:08,993 - Objekat je c tipa  1 na liniji 9
+INFO  20:45:08,993 - Objekat je element niza c tipa niz 5 na liniji 9
+INFO  20:45:08,993 - Objekat je y tipa  1 na liniji 11
+INFO  20:45:08,993 - Objekat je x tipa  1 na liniji 13
+INFO  20:45:08,993 - Objekat je c tipa  1 na liniji 17
+INFO  20:45:08,993 - Objekat je element niza c tipa niz 5 na liniji 17
+INFO  20:45:08,993 - Objekat je x tipa  1 na liniji 17
+INFO  20:45:08,993 - Objekat je c tipa  1 na liniji 19
+INFO  20:45:08,993 - Objekat je element niza c tipa niz 5 na liniji 19
+INFO  20:45:08,993 - Objekat je x tipa  1 na liniji 27
+INFO  20:45:08,993 - Objekat je y tipa  1 na liniji 27
+INFO  20:45:08,993 - Objekat je y tipa  1 na liniji 27
+INFO  20:45:08,993 - Da li je konst 1 na liniji 27
+INFO  20:45:08,993 - Objekat je x tipa  1 na liniji 30
+INFO  20:45:08,993 - Objekat je y tipa  1 na liniji 31
+INFO  20:45:08,993 -  Print count calls = 3
+INFO  20:45:08,993 -  Deklarisanih promenljivih ima = 3
+INFO  20:45:08,993 - ===================================
+INFO  20:45:09,008 - Parsiranje uspesno zavrseno!
